@@ -4,5 +4,7 @@ This is the repo for study1 of Emotion and motivation paper. This is also the re
 AS1.2
 I already installed tidyverse and papaja
 
-I already created a R script file
+I already created an R script file
+
+I already created an R Notebook with the Papaja template
 
