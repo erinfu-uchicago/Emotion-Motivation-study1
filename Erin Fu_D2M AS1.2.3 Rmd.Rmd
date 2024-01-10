@@ -61,7 +61,7 @@ output            : papaja::apa6_pdf
 ```{r setup, include = FALSE}
 # load the papaja package
 library("papaja")
-source(file.path("C:/Users/ERIN2/Desktop/R & Git/Emotion-Motivation-study1","Erin Fu_D2M AS1.2.2 R script.R"))
+source("Erinfu_D2M_AS2_Rscript.R")
 r_refs("r-references.bib")
 ```
 
