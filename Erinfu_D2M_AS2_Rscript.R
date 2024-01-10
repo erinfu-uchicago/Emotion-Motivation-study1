@@ -7,6 +7,7 @@ library(tidyverse)
 install.packages("devtools")
 # lme4
 library("devtools"); install_github("lme4/lme4",dependencies=TRUE)
+library(lme4)
 # psych
 library("psych") 
 
