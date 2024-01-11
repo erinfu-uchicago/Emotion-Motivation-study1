@@ -5,3 +5,5 @@
 
 /localonly/
 
+*.tex
+*.pdf
