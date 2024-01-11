@@ -7,3 +7,5 @@
 
 *.tex
 *.pdf
+
+/r-references.bib
