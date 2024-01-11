@@ -9,7 +9,7 @@ I already created an R script file
 
 I already created an R Notebook with the Papaja template
 
-**update after the class**
+**Update after the class**
 
 I edited and renamed the R script file to see if could solve the knitting problem I faced when using the papaja template for knitting. The problem wasn't fixed, and I still cannot knit the Rmd file if it contains a "source" code. (keep updating)
 
@@ -31,9 +31,9 @@ This study adopted a within-subject design. Data were collected to reflect how c
 ```{file tree}
 --[top level]
   --.gitignore
-	--README.md
-	--Analysis_maincode.R (include the main code for data analysis)
-	--Analysis_report.Rmd (knit the final report with the APA template)
+  --README.md
+  --Analysis_maincode.R (include the main code for data analysis)
+  --Analysis_report.Rmd (knit the final report with the APA template)
 --data
   --ErinFu_Emotion&Motivation_rawdata.csv (raw statistic data)
   --ErinFu_Emotion&Motivation_cleareddata.csv (edited statistic data)
