@@ -3,9 +3,12 @@
 .RData
 .Ruserdata
 
+#A dedicated directory called localonly
 /localonly/
 
+#Files of specific types that I want on my computer but don’t want to upload to GitHub
 *.tex
 *.pdf
 
+#One specific file that is not in an ignored folder and is not an ignored filetype
 /r-references.bib

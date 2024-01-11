@@ -48,5 +48,5 @@ This study adopted a within-subject design. Data were collected to reflect how c
     --Table_regression.csv (the table of regression result)
     --Table_correlation.csv (the table of correlation result)
 
-
-
+**Part 2**
+Edited the .gitignore includes three types of files and added a comment for each
