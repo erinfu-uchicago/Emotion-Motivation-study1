@@ -20,12 +20,15 @@ I added one "option" code at the beginning of R script file to solve the knittin
 **Part 1**
 
 *Brief Description of Data*
+
 This dataset is expected to consist of 100 responses from participants, which include their gender, age, parents’ educational level, and family income as demographic information. This dataset is used to explore how children's motivation to learn a specific subject will be affected by adults' emotional expression. Learning motivation was measured from four sub-measurements: how much the child thinks that subject is 1) interesting, 2)important, 3) difficult, and 4) they want to learn it. Each sub-measurement was measured with a 6-point scale. There are six emotions included in this study: Surprise, Awe, Enjoyment, Neutral, Fear, and Sadness.
 
 *Brief Overview of Planned Project*
+
 This study adopted a within-subject design. Data were collected to reflect how children’s learning motivation levels varied by receiving the influence of different adults’ emotional expressions towards a specific subject. The results will mainly focus on exploring the effect of other’s positive emotions on children’s learning motivation, and compare it with that of neutral or negative emotions. A linear mixed effects model will be conducted for data analysis.
 
 *Hypothetical File Tree*
+```{file tree}
 --[top level]
   --.gitignore
 	--README.md
@@ -47,6 +50,8 @@ This study adopted a within-subject design. Data were collected to reflect how c
   --tables
     --Table_regression.csv (the table of regression result)
     --Table_correlation.csv (the table of correlation result)
+```
 
 **Part 2**
+
 Edited the .gitignore includes three types of files and added a comment for each
