@@ -1,6 +1,6 @@
 ---
 title             : "Unveiling the Impact of Adult Emotion on Child Learning Motivation"
-shorttitle        : "Title"
+shorttitle        : "Emotion and Motivation"
 
 author: 
   - name          : "Yuzhen Fu"
@@ -61,8 +61,13 @@ output            : papaja::apa6_pdf
 ```{r setup, include = FALSE}
 # load the papaja package
 library("papaja")
-source("Erinfu_D2M_AS2_Rscript.R")
+source("Erinfu_D2M_helloworld().R")
 r_refs("r-references.bib")
+```
+
+``` {r call the helloworld}
+class_group <- c("Anna", "Ben", "Erin")
+hello_world(class_group)
 ```
 
 ```{r analysis-preferences}
@@ -77,8 +82,23 @@ knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
 
 ## Participants
+### Phrase 1  
+The recruit goal for phrase one is 100 participants. _Qualtrics_ is used to conduct the recruitment ([https://www.qualtrics.com/](url)).  
+There are three *exclusive conditions* for participants:  
+* Condition 1  
+* Condition 2  
+  * Sub-Condition 2.1  
+  * Sub-Condition 2.2  
+* Condition 3  
 
-## Material
+### Phrase 2
+The recruit goal for phrase two is 20 participants.  
+**List of dataset**  
+1. Dataset 1  
+2. Dataset 2  
+3. Dataset 3  
+The dataset were saved by **_Google Drive_**.  
+<!-- https://www.google.com/drive/ -->  
 
 ## Procedure
 
