@@ -62,9 +62,9 @@ Created a new R script file and created a hello_world() function
 
 ## AS5
 
-### Update the YAML header  
-### Call the hello_world() function  
+**Update the YAML header**  
+**Call the hello_world() function**  
 source() the R script where I defined the hello_world() function in the first chunk
 created a new chunk below and called the hello_world() function
-### Edited markdown
+**Edited markdown**
 edited markdown (mainly in Methods part) to meet the requirement
