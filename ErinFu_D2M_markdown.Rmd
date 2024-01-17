@@ -65,7 +65,7 @@ source("Erinfu_D2M_helloworld().R")
 r_refs("r-references.bib")
 ```
 
-``` {r library package}
+``` {r library packages}
 library(readr)
 library(tidyverse)
 ```
@@ -83,6 +83,14 @@ EM_dataset <- read.csv("data/ErinFu_Dataset_E&M_1114-1206.csv")
 # Each cell is a single measurement
 # Absolutely necessary: The columns that record the result of our 6-point scale, which tests the relationship between emotion and motivation (e.g., Surprise.important)
 # Likely extraneous: Duration, Child.Birthday, Parent.Education, Family.Income, Note
+```
+
+``` {r intermediate dataset}
+EM_dataset.edited <- EM_dataset %>%
+  rename(Duration = Duration..in.seconds.) %>%
+  filter(Finished == "TRUE") %>%
+  select(-c(Duration, Child.Birthday, Parent.1.Education, Parent.2.Education, Family.Income, Note))
+write_csv(EM_dataset.edited, "data/ErinFu_dataset_E&M_0117.csv")
 ```
 
 ```{r analysis-preferences}
