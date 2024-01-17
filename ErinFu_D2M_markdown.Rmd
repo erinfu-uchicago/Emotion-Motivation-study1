@@ -65,9 +65,24 @@ source("Erinfu_D2M_helloworld().R")
 r_refs("r-references.bib")
 ```
 
+``` {r library package}
+library(readr)
+library(tidyverse)
+```
+
 ``` {r call the helloworld}
 class_group <- c("Anna", "Ben", "Erin")
 hello_world(class_group)
+```
+
+``` {r read dataset csv}
+EM_dataset <- read.csv("data/ErinFu_Dataset_E&M_1114-1206.csv")
+# Yes, it is tidy!
+# Each column is a single variable
+# Each row is a single observation
+# Each cell is a single measurement
+# Absolutely necessary: The columns that record the result of our 6-point scale, which tests the relationship between emotion and motivation (e.g., Surprise.important)
+# Likely extraneous: Duration, Child.Birthday, Parent.Education, Family.Income, Note
 ```
 
 ```{r analysis-preferences}
