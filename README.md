@@ -65,6 +65,17 @@ Created a new R script file and created a hello_world() function
 **Update the YAML header**  
 **Call the hello_world() function**  
 source() the R script where I defined the hello_world() function in the first chunk
-created a new chunk below and called the hello_world() function
-**Edited markdown**
+created a new chunk below and called the hello_world() function  
+**Edited markdown**  
 edited markdown (mainly in Methods part) to meet the requirement
+
+## AS6  
+
+**Read-in and "tidy"**  
+Created and named a new chunk and use readr to read-in the temporary dataset  
+Examined if it is tidy in RStudio (Yes!)  
+**Intermediate dataset**  
+Created and named a new chunk  
+Used 2+ dplyr functions to create an intermediate dataset and used readr to write it to a .csv  
+Examined the new intermediate data file in Excel. (Looks good!)  
+
