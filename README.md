@@ -79,3 +79,9 @@ Created and named a new chunk
 Used 2+ dplyr functions to create an intermediate dataset and used readr to write it to a .csv  
 Examined the new intermediate data file in Excel. (Looks good!)  
 
+## AS7  
+
+**Mockup a preliminary dataset**  
+Created a new dataset file in data  
+**Create a new .R script**  
+Created an .R script called data-prep.R and used comments to write out the data analysis plan  
