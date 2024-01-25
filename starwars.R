@@ -17,7 +17,7 @@ str(sw.wrangled.goal)
 
 ## Use the built-in starwars dataset to replicate the tibble above in a tbl called sw.wrangled
 # If you get stuck, use comments to "hold space" for where you know code needs to go to achieve a goal you're not sure how to execute
-sw.wranged <- starwars %>%
+sw.wrangled <- starwars %>%
   
   # select all the column that we needed: name, hight, mass, hair_color, gender, species, homeworld
   select(name, height, mass, hair_color, gender, species, homeworld) %>%
@@ -42,9 +42,9 @@ sw.wranged <- starwars %>%
 
 # disordered
 desired_order <- c("first_name", "last_name", "initials", "height_in", "height_cm", "mass", "hair", "gender", "species", "homeworld", "brown_hair") 
-sw.wranged <- sw.wranged %>%
+sw.wrangled <- sw.wrangled %>%
   select(all_of(desired_order)) %>%
-  arrange(last_name)
+  arrange(last_name, first_name)
 
 write_csv(sw.wranged, "data/starwar_edited.csv")
 
