@@ -86,8 +86,10 @@ Created a new dataset file in data
 **Create a new .R script**  
 Created an .R script called data-prep.R and used comments to write out the data analysis plan  
 
-## AS8
+## AS8  
 
-**Recreate the modified starwars dataset**
-Followed the instructions in the file and manipulated the built-in starwars tibble to create a new object
+**Recreate the modified starwars dataset**  
+Followed the instructions in the file and manipulated the built-in starwars tibble to create a new object  
 
+**Update after the class**
+I fixed the problem of arrangement! (end)
