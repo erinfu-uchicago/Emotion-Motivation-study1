@@ -1,0 +1,601 @@
+ID,Child.Gender,Child.Age.Group,Child.Birthday,Child.Age.In.Years,Child.Race,Emotion,Scale_Type,Score,Note
+1001,Female,6,12/13/2016,6.91,White,Surprise,Important,1, really not important
+1001,Female,6,12/13/2016,6.91,White,Surprise,Interesting,6, really interesting
+1001,Female,6,12/13/2016,6.91,White,Surprise,Difficulty,1, really easy
+1001,Female,6,12/13/2016,6.91,White,Surprise,Motivation,4, a tiny bit want to learn
+1001,Female,6,12/13/2016,6.91,White,Awe,Important,1, really not important
+1001,Female,6,12/13/2016,6.91,White,Awe,Interesting,4, a tiny bit interesting
+1001,Female,6,12/13/2016,6.91,White,Awe,Difficulty,6, really difficult
+1001,Female,6,12/13/2016,6.91,White,Awe,Motivation,3, a tiny bit not want to learn
+1001,Female,6,12/13/2016,6.91,White,Enjoyment,Important,4, a tiny bit important
+1001,Female,6,12/13/2016,6.91,White,Enjoyment,Interesting,1, really not interesting
+1001,Female,6,12/13/2016,6.91,White,Enjoyment,Difficulty,6, really difficult
+1001,Female,6,12/13/2016,6.91,White,Enjoyment,Motivation,6, a lot want to learn
+1001,Female,6,12/13/2016,6.91,White,Neutral,Important,1, really not important
+1001,Female,6,12/13/2016,6.91,White,Neutral,Interesting,1, really not interesting
+1001,Female,6,12/13/2016,6.91,White,Neutral,Difficulty,2, a little easy
+1001,Female,6,12/13/2016,6.91,White,Neutral,Motivation,1, a lot not want to learn
+1001,Female,6,12/13/2016,6.91,White,Fear,Important,1, really not important
+1001,Female,6,12/13/2016,6.91,White,Fear,Interesting,1, really not interesting
+1001,Female,6,12/13/2016,6.91,White,Fear,Difficulty,1, really easy
+1001,Female,6,12/13/2016,6.91,White,Fear,Motivation,1, a lot not want to learn
+1001,Female,6,12/13/2016,6.91,White,Sadness,Important,1, really not important
+1001,Female,6,12/13/2016,6.91,White,Sadness,Interesting,6, really interesting
+1001,Female,6,12/13/2016,6.91,White,Sadness,Difficulty,1, really easy
+1001,Female,6,12/13/2016,6.91,White,Sadness,Motivation,3, a tiny bit not want to learn
+1002,Female,4,01/29/2019,4.79,White,Surprise,Important,1, really not important
+1002,Female,4,01/29/2019,4.79,White,Surprise,Interesting,1, really not interesting
+1002,Female,4,01/29/2019,4.79,White,Surprise,Difficulty,6, really difficult
+1002,Female,4,01/29/2019,4.79,White,Surprise,Motivation,1, a lot not want to learn
+1002,Female,4,01/29/2019,4.79,White,Awe,Important,3, a tiny bit not important
+1002,Female,4,01/29/2019,4.79,White,Awe,Interesting,4, a tiny bit interesting
+1002,Female,4,01/29/2019,4.79,White,Awe,Difficulty,1, really easy
+1002,Female,4,01/29/2019,4.79,White,Awe,Motivation,6, a lot want to learn
+1002,Female,4,01/29/2019,4.79,White,Enjoyment,Important,6, really important
+1002,Female,4,01/29/2019,4.79,White,Enjoyment,Interesting,1, really not interesting
+1002,Female,4,01/29/2019,4.79,White,Enjoyment,Difficulty,6, really difficult
+1002,Female,4,01/29/2019,4.79,White,Enjoyment,Motivation,1, a lot not want to learn
+1002,Female,4,01/29/2019,4.79,White,Neutral,Important,1, really not important
+1002,Female,4,01/29/2019,4.79,White,Neutral,Interesting,6, really interesting
+1002,Female,4,01/29/2019,4.79,White,Neutral,Difficulty,1, really easy
+1002,Female,4,01/29/2019,4.79,White,Neutral,Motivation,1, a lot not want to learn
+1002,Female,4,01/29/2019,4.79,White,Fear,Important,1, really not important
+1002,Female,4,01/29/2019,4.79,White,Fear,Interesting,1, really not interesting
+1002,Female,4,01/29/2019,4.79,White,Fear,Difficulty,6, really difficult
+1002,Female,4,01/29/2019,4.79,White,Fear,Motivation,1, a lot not want to learn
+1002,Female,4,01/29/2019,4.79,White,Sadness,Important,1, really not important
+1002,Female,4,01/29/2019,4.79,White,Sadness,Interesting,1, really not interesting
+1002,Female,4,01/29/2019,4.79,White,Sadness,Difficulty,6, really difficult
+1002,Female,4,01/29/2019,4.79,White,Sadness,Motivation,1, a lot not want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Surprise,Important,5, a little important
+1003,Female,6,10/24/2017,6.05,Hispanic,Surprise,Interesting,3, a tiny bit not interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Surprise,Difficulty,5, a little difficult
+1003,Female,6,10/24/2017,6.05,Hispanic,Surprise,Motivation,3, a tiny bit not want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Awe,Important,6, really important
+1003,Female,6,10/24/2017,6.05,Hispanic,Awe,Interesting,4, a tiny bit interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Awe,Difficulty,2, a little easy
+1003,Female,6,10/24/2017,6.05,Hispanic,Awe,Motivation,4, a tiny bit want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Enjoyment,Important,5, a little important
+1003,Female,6,10/24/2017,6.05,Hispanic,Enjoyment,Interesting,4, a tiny bit interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Enjoyment,Difficulty,3, a tiny bit easy
+1003,Female,6,10/24/2017,6.05,Hispanic,Enjoyment,Motivation,5, a little want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Neutral,Important,2, a little not important
+1003,Female,6,10/24/2017,6.05,Hispanic,Neutral,Interesting,2, a little not interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Neutral,Difficulty,4, a tiny bit difficult
+1003,Female,6,10/24/2017,6.05,Hispanic,Neutral,Motivation,3, a tiny bit not want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Fear,Important,3, a tiny bit not important
+1003,Female,6,10/24/2017,6.05,Hispanic,Fear,Interesting,2, a little not interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Fear,Difficulty,6, really difficult
+1003,Female,6,10/24/2017,6.05,Hispanic,Fear,Motivation,2, a little not want to learn
+1003,Female,6,10/24/2017,6.05,Hispanic,Sadness,Important,1, really not important
+1003,Female,6,10/24/2017,6.05,Hispanic,Sadness,Interesting,3, a tiny bit not interesting
+1003,Female,6,10/24/2017,6.05,Hispanic,Sadness,Difficulty,6, really difficult
+1003,Female,6,10/24/2017,6.05,Hispanic,Sadness,Motivation,1, a lot not want to learn
+1004,Male,6,10/17/2017,6.07,White,Surprise,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Surprise,Interesting,6, really interesting
+1004,Male,6,10/17/2017,6.07,White,Surprise,Difficulty,6, really difficult
+1004,Male,6,10/17/2017,6.07,White,Surprise,Motivation,1, a lot not want to learn
+1004,Male,6,10/17/2017,6.07,White,Awe,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Awe,Interesting,1, really not interesting
+1004,Male,6,10/17/2017,6.07,White,Awe,Difficulty,1, really easy
+1004,Male,6,10/17/2017,6.07,White,Awe,Motivation,6, a lot want to learn
+1004,Male,6,10/17/2017,6.07,White,Enjoyment,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Enjoyment,Interesting,6, really interesting
+1004,Male,6,10/17/2017,6.07,White,Enjoyment,Difficulty,4, a tiny bit difficult
+1004,Male,6,10/17/2017,6.07,White,Enjoyment,Motivation,4, a tiny bit want to learn
+1004,Male,6,10/17/2017,6.07,White,Neutral,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Neutral,Interesting,1, really not interesting
+1004,Male,6,10/17/2017,6.07,White,Neutral,Difficulty,1, really easy
+1004,Male,6,10/17/2017,6.07,White,Neutral,Motivation,6, a lot want to learn
+1004,Male,6,10/17/2017,6.07,White,Fear,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Fear,Interesting,6, really interesting
+1004,Male,6,10/17/2017,6.07,White,Fear,Difficulty,6, really difficult
+1004,Male,6,10/17/2017,6.07,White,Fear,Motivation,2, a little not want to learn
+1004,Male,6,10/17/2017,6.07,White,Sadness,Important,6, really important
+1004,Male,6,10/17/2017,6.07,White,Sadness,Interesting,2, a little not interesting
+1004,Male,6,10/17/2017,6.07,White,Sadness,Difficulty,4, a tiny bit difficult
+1004,Male,6,10/17/2017,6.07,White,Sadness,Motivation,5, a little want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Surprise,Important,5, a little important
+1005,Female,8,04/17/2015,8.58,Asian,Surprise,Interesting,5, a little interesting
+1005,Female,8,04/17/2015,8.58,Asian,Surprise,Difficulty,3, a tiny bit easy
+1005,Female,8,04/17/2015,8.58,Asian,Surprise,Motivation,5, a little want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Awe,Important,6, really important
+1005,Female,8,04/17/2015,8.58,Asian,Awe,Interesting,5, a little interesting
+1005,Female,8,04/17/2015,8.58,Asian,Awe,Difficulty,4, a tiny bit difficult
+1005,Female,8,04/17/2015,8.58,Asian,Awe,Motivation,6, a lot want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Enjoyment,Important,5, a little important
+1005,Female,8,04/17/2015,8.58,Asian,Enjoyment,Interesting,6, really interesting
+1005,Female,8,04/17/2015,8.58,Asian,Enjoyment,Difficulty,5, a little difficult
+1005,Female,8,04/17/2015,8.58,Asian,Enjoyment,Motivation,3, a tiny bit not want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Neutral,Important,3, a tiny bit not important
+1005,Female,8,04/17/2015,8.58,Asian,Neutral,Interesting,1, really not interesting
+1005,Female,8,04/17/2015,8.58,Asian,Neutral,Difficulty,2, a little easy
+1005,Female,8,04/17/2015,8.58,Asian,Neutral,Motivation,2, a little not want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Fear,Important,2, a little not important
+1005,Female,8,04/17/2015,8.58,Asian,Fear,Interesting,1, really not interesting
+1005,Female,8,04/17/2015,8.58,Asian,Fear,Difficulty,1, really easy
+1005,Female,8,04/17/2015,8.58,Asian,Fear,Motivation,2, a little not want to learn
+1005,Female,8,04/17/2015,8.58,Asian,Sadness,Important,1, really not important
+1005,Female,8,04/17/2015,8.58,Asian,Sadness,Interesting,2, a little not interesting
+1005,Female,8,04/17/2015,8.58,Asian,Sadness,Difficulty,6, really difficult
+1005,Female,8,04/17/2015,8.58,Asian,Sadness,Motivation,1, a lot not want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Surprise,Important,6, really important
+1006,Female,5,05/08/2023,5.52,Asian,Surprise,Interesting,6, really interesting
+1006,Female,5,05/08/2023,5.52,Asian,Surprise,Difficulty,6, really difficult
+1006,Female,5,05/08/2023,5.52,Asian,Surprise,Motivation,6, a lot want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Awe,Important,6, really important
+1006,Female,5,05/08/2023,5.52,Asian,Awe,Interesting,5, a little interesting
+1006,Female,5,05/08/2023,5.52,Asian,Awe,Difficulty,6, really difficult
+1006,Female,5,05/08/2023,5.52,Asian,Awe,Motivation,1, a lot not want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Enjoyment,Important,1, really not important
+1006,Female,5,05/08/2023,5.52,Asian,Enjoyment,Interesting,4, a tiny bit interesting
+1006,Female,5,05/08/2023,5.52,Asian,Enjoyment,Difficulty,1, really easy
+1006,Female,5,05/08/2023,5.52,Asian,Enjoyment,Motivation,1, a lot not want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Neutral,Important,1, really not important
+1006,Female,5,05/08/2023,5.52,Asian,Neutral,Interesting,4, a tiny bit interesting
+1006,Female,5,05/08/2023,5.52,Asian,Neutral,Difficulty,3, a tiny bit easy
+1006,Female,5,05/08/2023,5.52,Asian,Neutral,Motivation,1, a lot not want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Fear,Important,6, really important
+1006,Female,5,05/08/2023,5.52,Asian,Fear,Interesting,5, a little interesting
+1006,Female,5,05/08/2023,5.52,Asian,Fear,Difficulty,3, a tiny bit easy
+1006,Female,5,05/08/2023,5.52,Asian,Fear,Motivation,3, a tiny bit not want to learn
+1006,Female,5,05/08/2023,5.52,Asian,Sadness,Important,5, a little important
+1006,Female,5,05/08/2023,5.52,Asian,Sadness,Interesting,1, really not interesting
+1006,Female,5,05/08/2023,5.52,Asian,Sadness,Difficulty,2, a little easy
+1006,Female,5,05/08/2023,5.52,Asian,Sadness,Motivation,1, a lot not want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Surprise,Important,6, really important
+1007,Female,6,10/22/2017,6.09,Asian,Surprise,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Surprise,Difficulty,2, a little easy
+1007,Female,6,10/22/2017,6.09,Asian,Surprise,Motivation,6, a lot want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Awe,Important,6, really important
+1007,Female,6,10/22/2017,6.09,Asian,Awe,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Awe,Difficulty,1, really easy
+1007,Female,6,10/22/2017,6.09,Asian,Awe,Motivation,6, a lot want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Enjoyment,Important,6, really important
+1007,Female,6,10/22/2017,6.09,Asian,Enjoyment,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Enjoyment,Difficulty,1, really easy
+1007,Female,6,10/22/2017,6.09,Asian,Enjoyment,Motivation,6, a lot want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Neutral,Important,5, a little important
+1007,Female,6,10/22/2017,6.09,Asian,Neutral,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Neutral,Difficulty,3, a tiny bit easy
+1007,Female,6,10/22/2017,6.09,Asian,Neutral,Motivation,6, a lot want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Fear,Important,3, a tiny bit not important
+1007,Female,6,10/22/2017,6.09,Asian,Fear,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Fear,Difficulty,4, a tiny bit difficult
+1007,Female,6,10/22/2017,6.09,Asian,Fear,Motivation,6, a lot want to learn
+1007,Female,6,10/22/2017,6.09,Asian,Sadness,Important,3, a tiny bit not important
+1007,Female,6,10/22/2017,6.09,Asian,Sadness,Interesting,6, really interesting
+1007,Female,6,10/22/2017,6.09,Asian,Sadness,Difficulty,6, really difficult
+1007,Female,6,10/22/2017,6.09,Asian,Sadness,Motivation,6, a lot want to learn
+1008,Female,7,10/07/2016,7.13,White,Surprise,Important,5, a little important
+1008,Female,7,10/07/2016,7.13,White,Surprise,Interesting,6, really interesting
+1008,Female,7,10/07/2016,7.13,White,Surprise,Difficulty,6, really difficult
+1008,Female,7,10/07/2016,7.13,White,Surprise,Motivation,5, a little want to learn
+1008,Female,7,10/07/2016,7.13,White,Awe,Important,6, really important
+1008,Female,7,10/07/2016,7.13,White,Awe,Interesting,6, really interesting
+1008,Female,7,10/07/2016,7.13,White,Awe,Difficulty,6, really difficult
+1008,Female,7,10/07/2016,7.13,White,Awe,Motivation,1, a lot not want to learn
+1008,Female,7,10/07/2016,7.13,White,Enjoyment,Important,6, really important
+1008,Female,7,10/07/2016,7.13,White,Enjoyment,Interesting,4, a tiny bit interesting
+1008,Female,7,10/07/2016,7.13,White,Enjoyment,Difficulty,4, a tiny bit difficult
+1008,Female,7,10/07/2016,7.13,White,Enjoyment,Motivation,6, a lot want to learn
+1008,Female,7,10/07/2016,7.13,White,Neutral,Important,6, really important
+1008,Female,7,10/07/2016,7.13,White,Neutral,Interesting,2, a little not interesting
+1008,Female,7,10/07/2016,7.13,White,Neutral,Difficulty,2, a little easy
+1008,Female,7,10/07/2016,7.13,White,Neutral,Motivation,2, a little not want to learn
+1008,Female,7,10/07/2016,7.13,White,Fear,Important,1, really not important
+1008,Female,7,10/07/2016,7.13,White,Fear,Interesting,6, really interesting
+1008,Female,7,10/07/2016,7.13,White,Fear,Difficulty,3, a tiny bit easy
+1008,Female,7,10/07/2016,7.13,White,Fear,Motivation,1, a lot not want to learn
+1008,Female,7,10/07/2016,7.13,White,Sadness,Important,6, really important
+1008,Female,7,10/07/2016,7.13,White,Sadness,Interesting,5, a little interesting
+1008,Female,7,10/07/2016,7.13,White,Sadness,Difficulty,2, a little easy
+1008,Female,7,10/07/2016,7.13,White,Sadness,Motivation,1, a lot not want to learn
+1009,Female,4,12/01/2018,4.98,White,Surprise,Important,6, really important
+1009,Female,4,12/01/2018,4.98,White,Surprise,Interesting,1, really not interesting
+1009,Female,4,12/01/2018,4.98,White,Surprise,Difficulty,6, really difficult
+1009,Female,4,12/01/2018,4.98,White,Surprise,Motivation,6, a lot want to learn
+1009,Female,4,12/01/2018,4.98,White,Awe,Important,6, really important
+1009,Female,4,12/01/2018,4.98,White,Awe,Interesting,6, really interesting
+1009,Female,4,12/01/2018,4.98,White,Awe,Difficulty,1, really easy
+1009,Female,4,12/01/2018,4.98,White,Awe,Motivation,6, a lot want to learn
+1009,Female,4,12/01/2018,4.98,White,Enjoyment,Important,6, really important
+1009,Female,4,12/01/2018,4.98,White,Enjoyment,Interesting,6, really interesting
+1009,Female,4,12/01/2018,4.98,White,Enjoyment,Difficulty,1, really easy
+1009,Female,4,12/01/2018,4.98,White,Enjoyment,Motivation,6, a lot want to learn
+1009,Female,4,12/01/2018,4.98,White,Neutral,Important,6, really important
+1009,Female,4,12/01/2018,4.98,White,Neutral,Interesting,6, really interesting
+1009,Female,4,12/01/2018,4.98,White,Neutral,Difficulty,6, really difficult
+1009,Female,4,12/01/2018,4.98,White,Neutral,Motivation,6, a lot want to learn
+1009,Female,4,12/01/2018,4.98,White,Fear,Important,6, really important
+1009,Female,4,12/01/2018,4.98,White,Fear,Interesting,6, really interesting
+1009,Female,4,12/01/2018,4.98,White,Fear,Difficulty,6, really difficult
+1009,Female,4,12/01/2018,4.98,White,Fear,Motivation,6, a lot want to learn
+1009,Female,4,12/01/2018,4.98,White,Sadness,Important,1, really not important
+1009,Female,4,12/01/2018,4.98,White,Sadness,Interesting,1, really not interesting
+1009,Female,4,12/01/2018,4.98,White,Sadness,Difficulty,5, a little difficult
+1009,Female,4,12/01/2018,4.98,White,Sadness,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Surprise,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Surprise,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Surprise,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Surprise,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Awe,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Awe,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Awe,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Awe,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Enjoyment,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Enjoyment,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Enjoyment,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Enjoyment,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Neutral,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Neutral,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Neutral,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Neutral,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Fear,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Fear,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Fear,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Fear,Motivation,6, a lot want to learn
+1010,Female,4,03/14/2019,4.67,Hispanic,Sadness,Important,6, really important
+1010,Female,4,03/14/2019,4.67,Hispanic,Sadness,Interesting,6, really interesting
+1010,Female,4,03/14/2019,4.67,Hispanic,Sadness,Difficulty,1, really easy
+1010,Female,4,03/14/2019,4.67,Hispanic,Sadness,Motivation,6, a lot want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Surprise,Important,1, really not important
+1011,Female,8,10/16/2017,8.98,Black or African American,Surprise,Interesting,6, really interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Surprise,Difficulty,6, really difficult
+1011,Female,8,10/16/2017,8.98,Black or African American,Surprise,Motivation,6, a lot want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Awe,Important,6, really important
+1011,Female,8,10/16/2017,8.98,Black or African American,Awe,Interesting,6, really interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Awe,Difficulty,1, really easy
+1011,Female,8,10/16/2017,8.98,Black or African American,Awe,Motivation,6, a lot want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Enjoyment,Important,6, really important
+1011,Female,8,10/16/2017,8.98,Black or African American,Enjoyment,Interesting,6, really interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Enjoyment,Difficulty,1, really easy
+1011,Female,8,10/16/2017,8.98,Black or African American,Enjoyment,Motivation,6, a lot want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Neutral,Important,6, really important
+1011,Female,8,10/16/2017,8.98,Black or African American,Neutral,Interesting,1, really not interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Neutral,Difficulty,6, really difficult
+1011,Female,8,10/16/2017,8.98,Black or African American,Neutral,Motivation,1, a lot not want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Fear,Important,6, really important
+1011,Female,8,10/16/2017,8.98,Black or African American,Fear,Interesting,6, really interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Fear,Difficulty,1, really easy
+1011,Female,8,10/16/2017,8.98,Black or African American,Fear,Motivation,3, a tiny bit not want to learn
+1011,Female,8,10/16/2017,8.98,Black or African American,Sadness,Important,1, really not important
+1011,Female,8,10/16/2017,8.98,Black or African American,Sadness,Interesting,1, really not interesting
+1011,Female,8,10/16/2017,8.98,Black or African American,Sadness,Difficulty,1, really easy
+1011,Female,8,10/16/2017,8.98,Black or African American,Sadness,Motivation,1, a lot not want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Surprise,Important,5, a little important
+1012,Female,7,03/28/2016,7.66,Black or African American,Surprise,Interesting,1, really not interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Surprise,Difficulty,6, really difficult
+1012,Female,7,03/28/2016,7.66,Black or African American,Surprise,Motivation,1, a lot not want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Awe,Important,1, really not important
+1012,Female,7,03/28/2016,7.66,Black or African American,Awe,Interesting,6, really interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Awe,Difficulty,1, really easy
+1012,Female,7,03/28/2016,7.66,Black or African American,Awe,Motivation,6, a lot want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Enjoyment,Important,1, really not important
+1012,Female,7,03/28/2016,7.66,Black or African American,Enjoyment,Interesting,1, really not interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Enjoyment,Difficulty,3, a tiny bit easy
+1012,Female,7,03/28/2016,7.66,Black or African American,Enjoyment,Motivation,1, a lot not want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Neutral,Important,1, really not important
+1012,Female,7,03/28/2016,7.66,Black or African American,Neutral,Interesting,5, a little interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Neutral,Difficulty,2, a little easy
+1012,Female,7,03/28/2016,7.66,Black or African American,Neutral,Motivation,1, a lot not want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Fear,Important,1, really not important
+1012,Female,7,03/28/2016,7.66,Black or African American,Fear,Interesting,1, really not interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Fear,Difficulty,6, really difficult
+1012,Female,7,03/28/2016,7.66,Black or African American,Fear,Motivation,2, a little not want to learn
+1012,Female,7,03/28/2016,7.66,Black or African American,Sadness,Important,1, really not important
+1012,Female,7,03/28/2016,7.66,Black or African American,Sadness,Interesting,1, really not interesting
+1012,Female,7,03/28/2016,7.66,Black or African American,Sadness,Difficulty,1, really easy
+1012,Female,7,03/28/2016,7.66,Black or African American,Sadness,Motivation,3, a tiny bit not want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Surprise,Important,1, really not important
+1013,Female,8,12/01/2014,8.98,Black or African American,Surprise,Interesting,1, really not interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Surprise,Difficulty,5, a little difficult
+1013,Female,8,12/01/2014,8.98,Black or African American,Surprise,Motivation,2, a little not want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Awe,Important,4, a tiny bit important
+1013,Female,8,12/01/2014,8.98,Black or African American,Awe,Interesting,6, really interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Awe,Difficulty,1, really easy
+1013,Female,8,12/01/2014,8.98,Black or African American,Awe,Motivation,6, a lot want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Enjoyment,Important,6, really important
+1013,Female,8,12/01/2014,8.98,Black or African American,Enjoyment,Interesting,6, really interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Enjoyment,Difficulty,6, really difficult
+1013,Female,8,12/01/2014,8.98,Black or African American,Enjoyment,Motivation,1, a lot not want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Neutral,Important,1, really not important
+1013,Female,8,12/01/2014,8.98,Black or African American,Neutral,Interesting,1, really not interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Neutral,Difficulty,6, really difficult
+1013,Female,8,12/01/2014,8.98,Black or African American,Neutral,Motivation,1, a lot not want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Fear,Important,2, a little not important
+1013,Female,8,12/01/2014,8.98,Black or African American,Fear,Interesting,1, really not interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Fear,Difficulty,6, really difficult
+1013,Female,8,12/01/2014,8.98,Black or African American,Fear,Motivation,1, a lot not want to learn
+1013,Female,8,12/01/2014,8.98,Black or African American,Sadness,Important,6, really important
+1013,Female,8,12/01/2014,8.98,Black or African American,Sadness,Interesting,1, really not interesting
+1013,Female,8,12/01/2014,8.98,Black or African American,Sadness,Difficulty,1, really easy
+1013,Female,8,12/01/2014,8.98,Black or African American,Sadness,Motivation,1, a lot not want to learn
+1014,Female,6,10/15/2017,6.11,White,Surprise,Important,1, really not important
+1014,Female,6,10/15/2017,6.11,White,Surprise,Interesting,4, a tiny bit interesting
+1014,Female,6,10/15/2017,6.11,White,Surprise,Difficulty,1, really easy
+1014,Female,6,10/15/2017,6.11,White,Surprise,Motivation,3, a tiny bit not want to learn
+1014,Female,6,10/15/2017,6.11,White,Awe,Important,1, really not important
+1014,Female,6,10/15/2017,6.11,White,Awe,Interesting,3, a tiny bit not interesting
+1014,Female,6,10/15/2017,6.11,White,Awe,Difficulty,6, really difficult
+1014,Female,6,10/15/2017,6.11,White,Awe,Motivation,1, a lot not want to learn
+1014,Female,6,10/15/2017,6.11,White,Enjoyment,Important,6, really important
+1014,Female,6,10/15/2017,6.11,White,Enjoyment,Interesting,6, really interesting
+1014,Female,6,10/15/2017,6.11,White,Enjoyment,Difficulty,1, really easy
+1014,Female,6,10/15/2017,6.11,White,Enjoyment,Motivation,6, a lot want to learn
+1014,Female,6,10/15/2017,6.11,White,Neutral,Important,5, a little important
+1014,Female,6,10/15/2017,6.11,White,Neutral,Interesting,4, a tiny bit interesting
+1014,Female,6,10/15/2017,6.11,White,Neutral,Difficulty,4, a tiny bit difficult
+1014,Female,6,10/15/2017,6.11,White,Neutral,Motivation,3, a tiny bit not want to learn
+1014,Female,6,10/15/2017,6.11,White,Fear,Important,1, really not important
+1014,Female,6,10/15/2017,6.11,White,Fear,Interesting,1, really not interesting
+1014,Female,6,10/15/2017,6.11,White,Fear,Difficulty,6, really difficult
+1014,Female,6,10/15/2017,6.11,White,Fear,Motivation,1, a lot not want to learn
+1014,Female,6,10/15/2017,6.11,White,Sadness,Important,2, a little not important
+1014,Female,6,10/15/2017,6.11,White,Sadness,Interesting,1, really not interesting
+1014,Female,6,10/15/2017,6.11,White,Sadness,Difficulty,5, a little difficult
+1014,Female,6,10/15/2017,6.11,White,Sadness,Motivation,1, a lot not want to learn
+1015,Male,7,12/05/2015,7.97,White,Surprise,Important,5, a little important
+1015,Male,7,12/05/2015,7.97,White,Surprise,Interesting,4, a tiny bit interesting
+1015,Male,7,12/05/2015,7.97,White,Surprise,Difficulty,5, a little difficult
+1015,Male,7,12/05/2015,7.97,White,Surprise,Motivation,5, a little want to learn
+1015,Male,7,12/05/2015,7.97,White,Awe,Important,4, a tiny bit important
+1015,Male,7,12/05/2015,7.97,White,Awe,Interesting,6, really interesting
+1015,Male,7,12/05/2015,7.97,White,Awe,Difficulty,3, a tiny bit easy
+1015,Male,7,12/05/2015,7.97,White,Awe,Motivation,5, a little want to learn
+1015,Male,7,12/05/2015,7.97,White,Enjoyment,Important,5, a little important
+1015,Male,7,12/05/2015,7.97,White,Enjoyment,Interesting,5, a little interesting
+1015,Male,7,12/05/2015,7.97,White,Enjoyment,Difficulty,3, a tiny bit easy
+1015,Male,7,12/05/2015,7.97,White,Enjoyment,Motivation,3, a tiny bit not want to learn
+1015,Male,7,12/05/2015,7.97,White,Neutral,Important,6, really important
+1015,Male,7,12/05/2015,7.97,White,Neutral,Interesting,6, really interesting
+1015,Male,7,12/05/2015,7.97,White,Neutral,Difficulty,6, really difficult
+1015,Male,7,12/05/2015,7.97,White,Neutral,Motivation,6, a lot want to learn
+1015,Male,7,12/05/2015,7.97,White,Fear,Important,6, really important
+1015,Male,7,12/05/2015,7.97,White,Fear,Interesting,5, a little interesting
+1015,Male,7,12/05/2015,7.97,White,Fear,Difficulty,3, a tiny bit easy
+1015,Male,7,12/05/2015,7.97,White,Fear,Motivation,4, a tiny bit want to learn
+1015,Male,7,12/05/2015,7.97,White,Sadness,Important,4, a tiny bit important
+1015,Male,7,12/05/2015,7.97,White,Sadness,Interesting,1, really not interesting
+1015,Male,7,12/05/2015,7.97,White,Sadness,Difficulty,3, a tiny bit easy
+1015,Male,7,12/05/2015,7.97,White,Sadness,Motivation,3, a tiny bit not want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Surprise,Important,5, a little important
+1016,Female,7,03/19/2016,7.69,Black or African American,Surprise,Interesting,6, really interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Surprise,Difficulty,6, really difficult
+1016,Female,7,03/19/2016,7.69,Black or African American,Surprise,Motivation,5, a little want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Awe,Important,6, really important
+1016,Female,7,03/19/2016,7.69,Black or African American,Awe,Interesting,6, really interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Awe,Difficulty,5, a little difficult
+1016,Female,7,03/19/2016,7.69,Black or African American,Awe,Motivation,6, a lot want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Enjoyment,Important,5, a little important
+1016,Female,7,03/19/2016,7.69,Black or African American,Enjoyment,Interesting,6, really interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Enjoyment,Difficulty,2, a little easy
+1016,Female,7,03/19/2016,7.69,Black or African American,Enjoyment,Motivation,6, a lot want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Neutral,Important,6, really important
+1016,Female,7,03/19/2016,7.69,Black or African American,Neutral,Interesting,5, a little interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Neutral,Difficulty,5, a little difficult
+1016,Female,7,03/19/2016,7.69,Black or African American,Neutral,Motivation,5, a little want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Fear,Important,1, really not important
+1016,Female,7,03/19/2016,7.69,Black or African American,Fear,Interesting,3, a tiny bit not interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Fear,Difficulty,2, a little easy
+1016,Female,7,03/19/2016,7.69,Black or African American,Fear,Motivation,1, a lot not want to learn
+1016,Female,7,03/19/2016,7.69,Black or African American,Sadness,Important,1, really not important
+1016,Female,7,03/19/2016,7.69,Black or African American,Sadness,Interesting,1, really not interesting
+1016,Female,7,03/19/2016,7.69,Black or African American,Sadness,Difficulty,1, really easy
+1016,Female,7,03/19/2016,7.69,Black or African American,Sadness,Motivation,2, a little not want to learn
+1017,Female,8,11/03/2015,8.06,White,Surprise,Important,5, a little important
+1017,Female,8,11/03/2015,8.06,White,Surprise,Interesting,6, really interesting
+1017,Female,8,11/03/2015,8.06,White,Surprise,Difficulty,6, really difficult
+1017,Female,8,11/03/2015,8.06,White,Surprise,Motivation,6, a lot want to learn
+1017,Female,8,11/03/2015,8.06,White,Awe,Important,6, really important
+1017,Female,8,11/03/2015,8.06,White,Awe,Interesting,6, really interesting
+1017,Female,8,11/03/2015,8.06,White,Awe,Difficulty,5, a little difficult
+1017,Female,8,11/03/2015,8.06,White,Awe,Motivation,6, a lot want to learn
+1017,Female,8,11/03/2015,8.06,White,Enjoyment,Important,5, a little important
+1017,Female,8,11/03/2015,8.06,White,Enjoyment,Interesting,5, a little interesting
+1017,Female,8,11/03/2015,8.06,White,Enjoyment,Difficulty,2, a little easy
+1017,Female,8,11/03/2015,8.06,White,Enjoyment,Motivation,2, a little not want to learn
+1017,Female,8,11/03/2015,8.06,White,Neutral,Important,2, a little not important
+1017,Female,8,11/03/2015,8.06,White,Neutral,Interesting,1, really not interesting
+1017,Female,8,11/03/2015,8.06,White,Neutral,Difficulty,1, really easy
+1017,Female,8,11/03/2015,8.06,White,Neutral,Motivation,1, a lot not want to learn
+1017,Female,8,11/03/2015,8.06,White,Fear,Important,1, really not important
+1017,Female,8,11/03/2015,8.06,White,Fear,Interesting,2, a little not interesting
+1017,Female,8,11/03/2015,8.06,White,Fear,Difficulty,5, a little difficult
+1017,Female,8,11/03/2015,8.06,White,Fear,Motivation,2, a little not want to learn
+1017,Female,8,11/03/2015,8.06,White,Sadness,Important,3, a tiny bit not important
+1017,Female,8,11/03/2015,8.06,White,Sadness,Interesting,2, a little not interesting
+1017,Female,8,11/03/2015,8.06,White,Sadness,Difficulty,4, a tiny bit difficult
+1017,Female,8,11/03/2015,8.06,White,Sadness,Motivation,1, a lot not want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Surprise,Important,1, really not important
+1018,Female,5,11/03/2018,5.06,Asian,Surprise,Interesting,1, really not interesting
+1018,Female,5,11/03/2018,5.06,Asian,Surprise,Difficulty,1, really easy
+1018,Female,5,11/03/2018,5.06,Asian,Surprise,Motivation,6, a lot want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Awe,Important,5, a little important
+1018,Female,5,11/03/2018,5.06,Asian,Awe,Interesting,3, a tiny bit not interesting
+1018,Female,5,11/03/2018,5.06,Asian,Awe,Difficulty,1, really easy
+1018,Female,5,11/03/2018,5.06,Asian,Awe,Motivation,6, a lot want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Enjoyment,Important,1, really not important
+1018,Female,5,11/03/2018,5.06,Asian,Enjoyment,Interesting,3, a tiny bit not interesting
+1018,Female,5,11/03/2018,5.06,Asian,Enjoyment,Difficulty,4, a tiny bit difficult
+1018,Female,5,11/03/2018,5.06,Asian,Enjoyment,Motivation,6, a lot want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Neutral,Important,4, a tiny bit important
+1018,Female,5,11/03/2018,5.06,Asian,Neutral,Interesting,3, a tiny bit not interesting
+1018,Female,5,11/03/2018,5.06,Asian,Neutral,Difficulty,3, a tiny bit easy
+1018,Female,5,11/03/2018,5.06,Asian,Neutral,Motivation,6, a lot want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Fear,Important,5, a little important
+1018,Female,5,11/03/2018,5.06,Asian,Fear,Interesting,5, a little interesting
+1018,Female,5,11/03/2018,5.06,Asian,Fear,Difficulty,3, a tiny bit easy
+1018,Female,5,11/03/2018,5.06,Asian,Fear,Motivation,6, a lot want to learn
+1018,Female,5,11/03/2018,5.06,Asian,Sadness,Important,6, really important
+1018,Female,5,11/03/2018,5.06,Asian,Sadness,Interesting,5, a little interesting
+1018,Female,5,11/03/2018,5.06,Asian,Sadness,Difficulty,4, a tiny bit difficult
+1018,Female,5,11/03/2018,5.06,Asian,Sadness,Motivation,6, a lot want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Surprise,Important,4, a tiny bit important
+1019,Female,7,05/31/2016,7.49,Asian,Surprise,Interesting,4, a tiny bit interesting
+1019,Female,7,05/31/2016,7.49,Asian,Surprise,Difficulty,3, a tiny bit easy
+1019,Female,7,05/31/2016,7.49,Asian,Surprise,Motivation,4, a tiny bit want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Awe,Important,5, a little important
+1019,Female,7,05/31/2016,7.49,Asian,Awe,Interesting,5, a little interesting
+1019,Female,7,05/31/2016,7.49,Asian,Awe,Difficulty,3, a tiny bit easy
+1019,Female,7,05/31/2016,7.49,Asian,Awe,Motivation,5, a little want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Enjoyment,Important,3, a tiny bit not important
+1019,Female,7,05/31/2016,7.49,Asian,Enjoyment,Interesting,6, really interesting
+1019,Female,7,05/31/2016,7.49,Asian,Enjoyment,Difficulty,1, really easy
+1019,Female,7,05/31/2016,7.49,Asian,Enjoyment,Motivation,6, a lot want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Neutral,Important,5, a little important
+1019,Female,7,05/31/2016,7.49,Asian,Neutral,Interesting,3, a tiny bit not interesting
+1019,Female,7,05/31/2016,7.49,Asian,Neutral,Difficulty,4, a tiny bit difficult
+1019,Female,7,05/31/2016,7.49,Asian,Neutral,Motivation,4, a tiny bit want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Fear,Important,6, really important
+1019,Female,7,05/31/2016,7.49,Asian,Fear,Interesting,1, really not interesting
+1019,Female,7,05/31/2016,7.49,Asian,Fear,Difficulty,6, really difficult
+1019,Female,7,05/31/2016,7.49,Asian,Fear,Motivation,5, a little want to learn
+1019,Female,7,05/31/2016,7.49,Asian,Sadness,Important,5, a little important
+1019,Female,7,05/31/2016,7.49,Asian,Sadness,Interesting,2, a little not interesting
+1019,Female,7,05/31/2016,7.49,Asian,Sadness,Difficulty,4, a tiny bit difficult
+1019,Female,7,05/31/2016,7.49,Asian,Sadness,Motivation,4, a tiny bit want to learn
+1020,Female,6,01/09/2018,6.03,White,Surprise,Important,3, a tiny bit not important
+1020,Female,6,01/09/2018,6.03,White,Surprise,Interesting,6, really interesting
+1020,Female,6,01/09/2018,6.03,White,Surprise,Difficulty,6, really difficult
+1020,Female,6,01/09/2018,6.03,White,Surprise,Motivation,1, a lot not want to learn
+1020,Female,6,01/09/2018,6.03,White,Awe,Important,6, really important
+1020,Female,6,01/09/2018,6.03,White,Awe,Interesting,6, really interesting
+1020,Female,6,01/09/2018,6.03,White,Awe,Difficulty,1, really easy
+1020,Female,6,01/09/2018,6.03,White,Awe,Motivation,6, a lot want to learn
+1020,Female,6,01/09/2018,6.03,White,Enjoyment,Important,6, really important
+1020,Female,6,01/09/2018,6.03,White,Enjoyment,Interesting,6, really interesting
+1020,Female,6,01/09/2018,6.03,White,Enjoyment,Difficulty,1, really easy
+1020,Female,6,01/09/2018,6.03,White,Enjoyment,Motivation,6, a lot want to learn
+1020,Female,6,01/09/2018,6.03,White,Neutral,Important,3, a tiny bit not important
+1020,Female,6,01/09/2018,6.03,White,Neutral,Interesting,1, really not interesting
+1020,Female,6,01/09/2018,6.03,White,Neutral,Difficulty,6, really difficult
+1020,Female,6,01/09/2018,6.03,White,Neutral,Motivation,1, a lot not want to learn
+1020,Female,6,01/09/2018,6.03,White,Fear,Important,1, really not important
+1020,Female,6,01/09/2018,6.03,White,Fear,Interesting,6, really interesting
+1020,Female,6,01/09/2018,6.03,White,Fear,Difficulty,6, really difficult
+1020,Female,6,01/09/2018,6.03,White,Fear,Motivation,6, a lot want to learn
+1020,Female,6,01/09/2018,6.03,White,Sadness,Important,2, a little not important
+1020,Female,6,01/09/2018,6.03,White,Sadness,Interesting,3, a tiny bit not interesting
+1020,Female,6,01/09/2018,6.03,White,Sadness,Difficulty,4, a tiny bit difficult
+1020,Female,6,01/09/2018,6.03,White,Sadness,Motivation,1, a lot not want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Surprise,Important,1, really not important
+1021,Male,8,11/17/2015,8.18,Hispanic,Surprise,Interesting,4, a tiny bit interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Surprise,Difficulty,6, really difficult
+1021,Male,8,11/17/2015,8.18,Hispanic,Surprise,Motivation,2, a little not want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Awe,Important,4, a tiny bit important
+1021,Male,8,11/17/2015,8.18,Hispanic,Awe,Interesting,3, a tiny bit not interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Awe,Difficulty,2, a little easy
+1021,Male,8,11/17/2015,8.18,Hispanic,Awe,Motivation,5, a little want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Enjoyment,Important,5, a little important
+1021,Male,8,11/17/2015,8.18,Hispanic,Enjoyment,Interesting,6, really interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Enjoyment,Difficulty,1, really easy
+1021,Male,8,11/17/2015,8.18,Hispanic,Enjoyment,Motivation,6, a lot want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Neutral,Important,1, really not important
+1021,Male,8,11/17/2015,8.18,Hispanic,Neutral,Interesting,1, really not interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Neutral,Difficulty,6, really difficult
+1021,Male,8,11/17/2015,8.18,Hispanic,Neutral,Motivation,1, a lot not want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Fear,Important,6, really important
+1021,Male,8,11/17/2015,8.18,Hispanic,Fear,Interesting,5, a little interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Fear,Difficulty,1, really easy
+1021,Male,8,11/17/2015,8.18,Hispanic,Fear,Motivation,1, a lot not want to learn
+1021,Male,8,11/17/2015,8.18,Hispanic,Sadness,Important,6, really important
+1021,Male,8,11/17/2015,8.18,Hispanic,Sadness,Interesting,6, really interesting
+1021,Male,8,11/17/2015,8.18,Hispanic,Sadness,Difficulty,1, really easy
+1021,Male,8,11/17/2015,8.18,Hispanic,Sadness,Motivation,1, a lot not want to learn
+1022,Male,9,05/17/2014,9.68,White,Surprise,Important,5, a little important
+1022,Male,9,05/17/2014,9.68,White,Surprise,Interesting,5, a little interesting
+1022,Male,9,05/17/2014,9.68,White,Surprise,Difficulty,3, a tiny bit easy
+1022,Male,9,05/17/2014,9.68,White,Surprise,Motivation,5, a little want to learn
+1022,Male,9,05/17/2014,9.68,White,Awe,Important,6, really important
+1022,Male,9,05/17/2014,9.68,White,Awe,Interesting,6, really interesting
+1022,Male,9,05/17/2014,9.68,White,Awe,Difficulty,3, a tiny bit easy
+1022,Male,9,05/17/2014,9.68,White,Awe,Motivation,5, a little want to learn
+1022,Male,9,05/17/2014,9.68,White,Enjoyment,Important,5, a little important
+1022,Male,9,05/17/2014,9.68,White,Enjoyment,Interesting,5, a little interesting
+1022,Male,9,05/17/2014,9.68,White,Enjoyment,Difficulty,1, really easy
+1022,Male,9,05/17/2014,9.68,White,Enjoyment,Motivation,5, a little want to learn
+1022,Male,9,05/17/2014,9.68,White,Neutral,Important,5, a little important
+1022,Male,9,05/17/2014,9.68,White,Neutral,Interesting,3, a tiny bit not interesting
+1022,Male,9,05/17/2014,9.68,White,Neutral,Difficulty,3, a tiny bit easy
+1022,Male,9,05/17/2014,9.68,White,Neutral,Motivation,4, a tiny bit want to learn
+1022,Male,9,05/17/2014,9.68,White,Fear,Important,1, really not important
+1022,Male,9,05/17/2014,9.68,White,Fear,Interesting,1, really not interesting
+1022,Male,9,05/17/2014,9.68,White,Fear,Difficulty,6, really difficult
+1022,Male,9,05/17/2014,9.68,White,Fear,Motivation,1, a lot not want to learn
+1022,Male,9,05/17/2014,9.68,White,Sadness,Important,5, a little important
+1022,Male,9,05/17/2014,9.68,White,Sadness,Interesting,2, a little not interesting
+1022,Male,9,05/17/2014,9.68,White,Sadness,Difficulty,5, a little difficult
+1022,Male,9,05/17/2014,9.68,White,Sadness,Motivation,4, a tiny bit want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Surprise,Important,5, a little important
+1023,Male,8,12/12/2015,8.11,Hispanic,Surprise,Interesting,6, really interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Surprise,Difficulty,3, a tiny bit easy
+1023,Male,8,12/12/2015,8.11,Hispanic,Surprise,Motivation,4, a tiny bit want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Awe,Important,3, a tiny bit not important
+1023,Male,8,12/12/2015,8.11,Hispanic,Awe,Interesting,6, really interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Awe,Difficulty,4, a tiny bit difficult
+1023,Male,8,12/12/2015,8.11,Hispanic,Awe,Motivation,5, a little want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Enjoyment,Important,4, a tiny bit important
+1023,Male,8,12/12/2015,8.11,Hispanic,Enjoyment,Interesting,6, really interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Enjoyment,Difficulty,3, a tiny bit easy
+1023,Male,8,12/12/2015,8.11,Hispanic,Enjoyment,Motivation,6, a lot want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Neutral,Important,6, really important
+1023,Male,8,12/12/2015,8.11,Hispanic,Neutral,Interesting,5, a little interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Neutral,Difficulty,6, really difficult
+1023,Male,8,12/12/2015,8.11,Hispanic,Neutral,Motivation,6, a lot want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Fear,Important,4, a tiny bit important
+1023,Male,8,12/12/2015,8.11,Hispanic,Fear,Interesting,2, a little not interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Fear,Difficulty,5, a little difficult
+1023,Male,8,12/12/2015,8.11,Hispanic,Fear,Motivation,5, a little want to learn
+1023,Male,8,12/12/2015,8.11,Hispanic,Sadness,Important,5, a little important
+1023,Male,8,12/12/2015,8.11,Hispanic,Sadness,Interesting,1, really not interesting
+1023,Male,8,12/12/2015,8.11,Hispanic,Sadness,Difficulty,4, a tiny bit difficult
+1023,Male,8,12/12/2015,8.11,Hispanic,Sadness,Motivation,1, a lot not want to learn
+1024,Male,5,12/18/2018,5.1,White,Surprise,Important,5, a little important
+1024,Male,5,12/18/2018,5.1,White,Surprise,Interesting,5, a little interesting
+1024,Male,5,12/18/2018,5.1,White,Surprise,Difficulty,4, a tiny bit difficult
+1024,Male,5,12/18/2018,5.1,White,Surprise,Motivation,6, a lot want to learn
+1024,Male,5,12/18/2018,5.1,White,Awe,Important,5, a little important
+1024,Male,5,12/18/2018,5.1,White,Awe,Interesting,6, really interesting
+1024,Male,5,12/18/2018,5.1,White,Awe,Difficulty,4, a tiny bit difficult
+1024,Male,5,12/18/2018,5.1,White,Awe,Motivation,6, a lot want to learn
+1024,Male,5,12/18/2018,5.1,White,Enjoyment,Important,3, a tiny bit not important
+1024,Male,5,12/18/2018,5.1,White,Enjoyment,Interesting,6, really interesting
+1024,Male,5,12/18/2018,5.1,White,Enjoyment,Difficulty,3, a tiny bit easy
+1024,Male,5,12/18/2018,5.1,White,Enjoyment,Motivation,4, a tiny bit want to learn
+1024,Male,5,12/18/2018,5.1,White,Neutral,Important,2, a little not important
+1024,Male,5,12/18/2018,5.1,White,Neutral,Interesting,2, a little not interesting
+1024,Male,5,12/18/2018,5.1,White,Neutral,Difficulty,5, a little difficult
+1024,Male,5,12/18/2018,5.1,White,Neutral,Motivation,2, a little not want to learn
+1024,Male,5,12/18/2018,5.1,White,Fear,Important,6, really important
+1024,Male,5,12/18/2018,5.1,White,Fear,Interesting,6, really interesting
+1024,Male,5,12/18/2018,5.1,White,Fear,Difficulty,6, really difficult
+1024,Male,5,12/18/2018,5.1,White,Fear,Motivation,2, a little not want to learn
+1024,Male,5,12/18/2018,5.1,White,Sadness,Important,6, really important
+1024,Male,5,12/18/2018,5.1,White,Sadness,Interesting,6, really interesting
+1024,Male,5,12/18/2018,5.1,White,Sadness,Difficulty,6, really difficult
+1024,Male,5,12/18/2018,5.1,White,Sadness,Motivation,2, a little not want to learn
+1025,Female,8,06/08/2015,8.63,White,Surprise,Important,2, a little not important
+1025,Female,8,06/08/2015,8.63,White,Surprise,Interesting,5, a little interesting
+1025,Female,8,06/08/2015,8.63,White,Surprise,Difficulty,5, a little difficult
+1025,Female,8,06/08/2015,8.63,White,Surprise,Motivation,5, a little want to learn
+1025,Female,8,06/08/2015,8.63,White,Awe,Important,6, really important
+1025,Female,8,06/08/2015,8.63,White,Awe,Interesting,6, really interesting
+1025,Female,8,06/08/2015,8.63,White,Awe,Difficulty,1, really easy
+1025,Female,8,06/08/2015,8.63,White,Awe,Motivation,6, a lot want to learn
+1025,Female,8,06/08/2015,8.63,White,Enjoyment,Important,6, really important
+1025,Female,8,06/08/2015,8.63,White,Enjoyment,Interesting,6, really interesting
+1025,Female,8,06/08/2015,8.63,White,Enjoyment,Difficulty,1, really easy
+1025,Female,8,06/08/2015,8.63,White,Enjoyment,Motivation,6, a lot want to learn
+1025,Female,8,06/08/2015,8.63,White,Neutral,Important,5, a little important
+1025,Female,8,06/08/2015,8.63,White,Neutral,Interesting,1, really not interesting
+1025,Female,8,06/08/2015,8.63,White,Neutral,Difficulty,5, a little difficult
+1025,Female,8,06/08/2015,8.63,White,Neutral,Motivation,1, a lot not want to learn
+1025,Female,8,06/08/2015,8.63,White,Fear,Important,1, really not important
+1025,Female,8,06/08/2015,8.63,White,Fear,Interesting,4, a tiny bit interesting
+1025,Female,8,06/08/2015,8.63,White,Fear,Difficulty,4, a tiny bit difficult
+1025,Female,8,06/08/2015,8.63,White,Fear,Motivation,3, a tiny bit not want to learn
+1025,Female,8,06/08/2015,8.63,White,Sadness,Important,3, a tiny bit not important
+1025,Female,8,06/08/2015,8.63,White,Sadness,Interesting,2, a little not interesting
+1025,Female,8,06/08/2015,8.63,White,Sadness,Difficulty,5, a little difficult
+1025,Female,8,06/08/2015,8.63,White,Sadness,Motivation,2, a little not want to learn

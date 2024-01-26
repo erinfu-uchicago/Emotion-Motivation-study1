@@ -93,6 +93,21 @@ EM_dataset.edited <- EM_dataset %>%
 write_csv(EM_dataset.edited, "data/ErinFu_dataset_E&M_0117.csv")
 ```
 
+``` {r data preparation}
+EM_dataset_wide <- read.csv("data/ErinFu_Dataset_E&M_1114-0125.csv")
+EM_dataset_long <- EM_dataset_wide %>%
+  pivot_longer(cols = c("Surprise.Important", "Surprise.Interesting", "Surprise.Difficulty", "Surprise.Motivation", "Awe.Important", "Awe.Interesting", "Awe.Difficulty", "Awe.Motivation", "Enjoyment.Important", "Enjoyment.Interesting", "Enjoyment.Difficulty", "Enjoyment.Motivation", "Neutral.Important", "Neutral.Interesting", "Neutral.Difficulty", "Neutral.Motivation", "Fear.Important", "Fear.Interesting", "Fear.Difficulty", "Fear.Motivation", "Sadness.Important", "Sadness.Interesting", "Sadness.Difficulty", "Sadness.Motivation"), 
+               names_to = "Name", 
+               values_to = "Result") %>%
+  separate_wider_delim(Name,
+                       delim = ".",
+                      names = c("Emotion", "Scale_Type")) %>%
+  separate_wider_delim(Result,
+                       delim = ".",
+                      names = c("Score", "Note"))
+write_csv(EM_dataset_long, "data/ErinFu_dataset_E&M_0125.csv")
+```
+
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
