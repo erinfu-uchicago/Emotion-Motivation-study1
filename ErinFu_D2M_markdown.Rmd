@@ -108,6 +108,21 @@ EM_dataset_long <- EM_dataset_wide %>%
 write_csv(EM_dataset_long, "data/ErinFu_dataset_E&M_0125.csv")
 ```
 
+``` {r plot1 age-in-years}
+# Show me the distribution of age-in-years of participants in a density plot
+# The number of participants in each age should be similar
+ggplot(EM_dataset_long, aes(Child.Age.In.Years)) + geom_density()
+```
+
+``` {r plot2 enjoyment-motivation}
+# Show me the distribution of Score when Emotion = Enjoyment and Scale_Type = Motivation in a bar plot
+# The distribution of score can reflect that if the expressed emotion is "Enjoyment", how children's motivation level gonna looks like
+filtered_data_1 <- subset(EM_dataset_long, Emotion == "Enjoyment" & Scale_Type == "Motivation")
+ggplot(filtered_data_1, aes(Score)) + geom_bar()
+# It seems like children gonna have high learning motivation when adults express "Enjoyment" to a specific subject
+```
+
+
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
