@@ -93,3 +93,14 @@ Followed the instructions in the file and manipulated the built-in starwars tibb
 
 **Update after the class**
 I fixed the problem of arrangement! (end)
+
+## AS9
+
+**Finish prepping your data**  
+Finished the data preparation by making the dataset become a long and tidy format  
+
+## AS10
+
+**Mock up 2 plots**  
+Mocked up 2 plots in 2 different chunks in my .Rmd file by using ggplot code
+
