@@ -104,3 +104,11 @@ Finished the data preparation by making the dataset become a long and tidy forma
 **Mock up 2 plots**  
 Mocked up 2 plots in 2 different chunks in my .Rmd file by using ggplot code
 
+## AS11
+
+**Part 1**  
+Recreated three plots in starwars.R  
+**Part 2**  
+Added one more plot to my .Rmd  
+
+
