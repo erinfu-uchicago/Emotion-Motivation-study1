@@ -51,3 +51,23 @@ write_csv(sw.wranged, "data/starwar_edited.csv")
 ## Check that your sw.wrangled df is identical to the goal df
 # Use any returned information about mismatches to adjust your code as needed
 all.equal(sw.wrangled.goal, sw.wrangled.goal)
+
+### AS11 Part1  
+## Plot 1  
+ggplot(sw.wrangled, aes(height_cm)) + geom_histogram(binwidth = 10) +
+  coord_cartesian(ylim = c(0,21)) +
+  scale_y_continuous(breaks = seq(0, 20, by = 5))
+
+## Plot 2
+sw.wrangled %>%
+  ggplot(aes(x = fct_infreq(hair))) +
+  geom_bar() +
+  labs(x = "sorted_hair")
+
+## Plot 3
+ggplot(sw.wrangled, aes(x = height_in, y = mass)) + 
+  geom_point(shape = 17) +
+  coord_cartesian(ylim = c(13,160), xlim = c(25,93)) +
+  scale_y_continuous(breaks = seq(40, 160, by = 40)) +
+  scale_x_continuous(breaks = seq(40, 80, by = 20))
+
