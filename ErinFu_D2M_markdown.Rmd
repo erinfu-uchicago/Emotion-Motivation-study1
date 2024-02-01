@@ -122,6 +122,16 @@ ggplot(filtered_data_1, aes(Score)) + geom_bar()
 # It seems like children gonna have high learning motivation when adults express "Enjoyment" to a specific subject
 ```
 
+``` {r plot3 mean-motivation}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+  summarise(mean_Score = mean(Score)) %>%
+ggplot(aes(x = Emotion, y = mean_Score, fill = Emotion)) +
+  geom_col() +
+  geom_jitter(data = EM_dataset_long, aes(x = Emotion, y = Score), width = .1, height = .1, color = "grey")
+```
 
 ```{r analysis-preferences}
 # Seed for random number generation
