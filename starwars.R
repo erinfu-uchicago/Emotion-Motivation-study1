@@ -71,3 +71,35 @@ ggplot(sw.wrangled, aes(x = height_in, y = mass)) +
   scale_y_continuous(breaks = seq(40, 160, by = 40)) +
   scale_x_continuous(breaks = seq(40, 80, by = 20))
 
+### AS12 Part1
+## Plot 1
+sw.wrangled %>%
+  filter(!is.na(mass)) %>%
+  ggplot(aes(x = fct_infreq(hair), y = mass, fill = fct_infreq(hair))) +
+  geom_boxplot() +
+  geom_point() +
+  scale_y_continuous(limits = c(10, 160)) +
+  labs(x = "Hair color(s)", y = "Mass (kg)", fill = "Colorful hair")
+
+## Plot 2
+sw.wrangled %>%
+  filter(!is.na(mass)) %>%
+  mutate(brown_hair = factor(brown_hair, levels = c("TRUE", "FALSE"), labels = c("Has brown hair", "No brown hair"))) %>%
+  group_by(brown_hair) %>%
+  ggplot(aes(x = mass, y = height_in)) +
+  geom_smooth(method = "lm") +
+  geom_point() +
+  facet_grid(.~brown_hair) +
+  coord_cartesian(ylim = c(-10,200)) +
+  scale_x_continuous(limits = c(-200, 200)) +
+  scale_y_continuous(breaks=c(-4, 20, 23, 80, 100)) +
+  labs(title = "Mass vs. by brown-hair-havingness", subtitle = "A critically important analysis")
+
+## Plot 3
+sw.wrangled %>%
+  filter(!is.na(species)) %>%
+  mutate(species_first_letter = paste0(str_sub(species, 1, 1))) %>% 
+  group_by(gender) %>%
+  ggplot(aes(y = factor(species_first_letter, levels = rev(levels(factor(species_first_letter)))), fill = gender)) +
+  geom_bar() +
+  labs(y = "species_first_letter", caption = "A clear male human bias")
