@@ -133,6 +133,27 @@ ggplot(aes(x = Emotion, y = mean_Score, fill = Emotion)) +
   geom_jitter(data = EM_dataset_long, aes(x = Emotion, y = Score), width = .1, height = .1, color = "grey")
 ```
 
+``` {r plot3 mean-motivation2.0}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
+  geom_boxplot() +
+  coord_cartesian(xlim = c(0,8), ylim = c(0,7))
+```
+
+``` {r plot4 emotion-motivation}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
+  geom_violin() +
+  coord_cartesian(xlim = c(0,7), ylim = c(0,7)) +
+  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.5, color = "black", fill = "grey")
+```
+
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
