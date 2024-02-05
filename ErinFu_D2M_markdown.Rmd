@@ -133,7 +133,8 @@ ggplot(aes(x = Emotion, y = mean_Score, fill = Emotion)) +
   geom_jitter(data = EM_dataset_long, aes(x = Emotion, y = Score), width = .1, height = .1, color = "grey")
 ```
 
-``` {r plot3 mean-motivation2.0}
+``` {r plot3 mean-motivation2.0(AS12)}
+# using boxplot to show the spread and maen of data
 EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
 EM_dataset_long %>%
   subset(Scale_Type == "Motivation") %>%
@@ -143,7 +144,8 @@ ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
   coord_cartesian(xlim = c(0,8), ylim = c(0,7))
 ```
 
-``` {r plot4 emotion-motivation}
+``` {r plot4 emotion-motivation(AS12)}
+# using violin plot and dotplot to show the distribution of data
 EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
 EM_dataset_long %>%
   subset(Scale_Type == "Motivation") %>%

@@ -111,4 +111,11 @@ Recreated three plots in starwars.R
 **Part 2**  
 Added one more plot to my .Rmd  
 
+## AS12
+
+**Part 1**  
+Recreated three more plots (intermediate) in starwars.R  
+**Part 2**  
+Tuned up my plot and add another to my .Rmd  
+
 
