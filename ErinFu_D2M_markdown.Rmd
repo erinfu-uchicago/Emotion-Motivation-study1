@@ -68,6 +68,12 @@ r_refs("r-references.bib")
 ``` {r library packages}
 library(readr)
 library(tidyverse)
+
+install.packages("extrafont")
+library(extrafont)
+font_import()
+fonts <- windowsFonts()
+print(fonts)
 ```
 
 ``` {r call the helloworld}
@@ -154,6 +160,52 @@ ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
   geom_violin() +
   coord_cartesian(xlim = c(0,7), ylim = c(0,7)) +
   geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.5, color = "black", fill = "grey")
+```
+
+``` {r plot1 emotion-motivation(AS13) fig.cap = "Adult's Emotions and Children's Learning Motivation"}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
+  geom_violin() +
+  coord_cartesian(xlim = c(0,7), ylim = c(0,7)) +
+  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
+  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.6, color = "black", fill = "grey") +
+  labs(title = "The Relationship between Adult's Emotions and Children's Learning Motivation", x = "Emotion", y = "Motivation Levels") +
+  theme(
+    text = element_text(family = "Times New Roman"),
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.x = element_line(linetype = 2, size = 0.6),
+    panel.grid.major.y = element_line(linetype = 2, size = 0.6)
+  )
+```
+
+``` {r plot2 age-emotion-motivation(AS13) fig.cap = "Children's Age and Learning Motivation Grouped by Emotions"}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Child.Age.In.Years, y = Score)) +
+  geom_smooth(method = "lm") +
+  facet_wrap(.~Emotion, scales = "free_x") +
+  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
+  geom_point() +
+  labs(title = "The Relationship between Children's Age and Learning Motivation", subtitle = 'Grouped by Six Different Emotions', x = "Children's Age (in years)", y = "Motivation Levels") +
+  theme(
+    text = element_text(family = "Times New Roman"),
+    panel.grid.minor.y = element_blank()
+  )
+```
+
+``` {r AS13 read-in picture}
+library(png)
+
+image_path_1 <- "data/E&M_DemonstratePicture_1.png"
+image <- readPNG(image_path_1)
+
+plot(1:2, type = "n", xlab = "", ylab = "", xlim = c(0, 1), ylim = c(0, 1))
+rasterImage(image, 0, 0, 1, 1)
 ```
 
 ```{r analysis-preferences}
