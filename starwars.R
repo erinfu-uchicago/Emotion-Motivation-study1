@@ -103,3 +103,40 @@ sw.wrangled %>%
   ggplot(aes(y = factor(species_first_letter, levels = rev(levels(factor(species_first_letter)))), fill = gender)) +
   geom_bar() +
   labs(y = "species_first_letter", caption = "A clear male human bias")
+
+## AS13 Part1
+# Plot 1
+sw.wrangled$gender <- factor(sw.wrangled$gender)
+sw.wrangled$gender <- relevel(sw.wrangled$gender, ref = "f")
+levels(sw.wrangled$gender) <- c("Female", "Male")
+sw.wrangled$gender <- factor(sw.wrangled$gender, levels = c("Female", "Male", "Other"))
+sw.wrangled$gender[is.na(sw.wrangled$gender)] <- "Other"
+
+sw.wrangled %>%
+  filter(!is.na(mass)) %>%
+  group_by(gender) %>%
+  ggplot(aes(x = height_cm, y = mass)) +
+  geom_smooth(method = "lm", aes(color = gender), fill = "#CCCCFF") +
+  scale_color_manual(values = c("Female" = "#8E1D20", "Male" = "#AFAAB4", "Other" = "#FAAE44")) +
+  geom_point(aes(color = gender), alpha = .5) +
+  facet_wrap(.~gender, scales = "free_y") +
+  coord_cartesian(xlim = c(60,270)) +
+  scale_x_continuous(breaks = seq(60, 270, by = 30)) +
+  labs(title = "Height and weight across gender presentation", subtitle = 'A cautionary tale in misleading "free" axis scales & bad design choices ', x = "Height (cm)", y = "Mass (kg)", color = "Gender Presentation", caption = "Color hint: use the ggsci package!") +
+  theme(
+    panel.border = element_rect(colour = "black", fill = NA, size = 0.1),
+    panel.background = element_rect(fill = "#FFEEEE"),
+    strip.background = element_rect(fill = "#006400"),
+    strip.text = element_text(colour = "white", hjust = 0, family = "Courier New"),
+    panel.grid.major.y = element_line(colour = "#DFDADA", linetype = 4, size = 1),  
+    panel.grid.minor.y = element_blank(),
+    axis.text.y = element_text(hjust = 0, family = "Bookman Old Style", face = "bold.italic"),
+    panel.grid.major.x = element_line(linetype = 2, size = 0.6),
+    panel.grid.minor.x = element_blank(),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "bottom",
+    legend.background = element_rect(fill = "#CCCCFF"),
+    plot.caption = element_text(color = "red", angle = 180, hjust = 0),
+    text = element_text(family = "Comic Sans MS"),
+    legend.title = element_text(family = "Brush Script MT", size = 18)
+  )
