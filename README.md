@@ -118,4 +118,9 @@ Recreated three more plots (intermediate) in starwars.R
 **Part 2**  
 Tuned up my plot and add another to my .Rmd  
 
+## AS13
 
+**Part 1**  
+Recreated one more plots (advanced & terrible) in starwars.R  
+**Part 2**  
+Tuned up my plots & .Rmd code chunks. Created two plots that I want to included in my final report.    
