@@ -139,6 +139,12 @@ ggplot(aes(x = Child.Age.In.Years, y = Score)) +
 options(tinytex.verbose = TRUE)
 ```
 
+```{r Comment(AS15), include=FALSE}
+## Descriptive analysis: Demographic data (gender/age/race)
+## Hypothesis testing analysis: Regression analysis(Emotion*Motivation Score)
+## Hypothesis: Different emotions can have a different effect on children's learning motivation (positive emotion can stimulate children's learning motivation, then children who see the facial expression of positive emotions, like awe or enjoyment, will report higher scores in learning motivation)
+```
+
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
