@@ -124,3 +124,7 @@ Tuned up my plot and add another to my .Rmd
 Recreated one more plots (advanced & terrible) in starwars.R  
 **Part 2**  
 Tuned up my plots & .Rmd code chunks. Created two plots that I want to included in my final report.    
+
+## AS14
+
+Created a new Rmd for my final report and Added a table/kable and references to it
