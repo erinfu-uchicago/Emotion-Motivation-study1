@@ -132,3 +132,7 @@ Created a new Rmd for my final report and Added a table/kable and references to 
 ## AS15  
 
 Described the imagined analyses in a new chunk in my Rmd file (pre-class)  
+
+## AS16
+
+Added the descriptive analysis for gender/race/age and the means of motivation scores for different emotions; added a regression model for hypothesis analysis
