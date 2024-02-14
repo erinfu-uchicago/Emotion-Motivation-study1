@@ -56,6 +56,9 @@ footnotelist      : no
 
 classoption       : "man"
 output            : papaja::apa6_pdf
+latex_engine: xelatex
+header-includes:
+  - \usepackage{colortbl}
 ---
 
 ```{r setup, include = FALSE}
@@ -93,7 +96,7 @@ regression_results_1 <- tidy(regmodel_1)
 regression_table <- regression_results_1 %>%
   mutate_if(is.numeric, round, digits = 3) %>%
   mutate_if(is.numeric, function(x) sprintf("%.3f", x))
-knitr::kable(regression_table, format = "markdown", align = "c", caption = "E&M Regression Table", label = "regression-table") %>%
+knitr::kable(regression_table, format = "markdown", align = "c", caption = "EM Regression Table", label = "regression-table") %>%
   kable_styling(position = "left", latex_options =c("striped", "hold_position")) %>%
   column_spec(5, color = "red", bold = TRUE)
 print(regression_table)
@@ -140,9 +143,36 @@ options(tinytex.verbose = TRUE)
 ```
 
 ```{r Comment(AS15), include=FALSE}
-## Descriptive analysis: Demographic data (gender/age/race)
+## Descriptive analysis: Demographic data (gender/age/race); Scale scores
 ## Hypothesis testing analysis: Regression analysis(Emotion*Motivation Score)
 ## Hypothesis: Different emotions can have a different effect on children's learning motivation (positive emotion can stimulate children's learning motivation, then children who see the facial expression of positive emotions, like awe or enjoyment, will report higher scores in learning motivation)
+```
+
+``` {r descriptive-analysis(AS16)}
+# Demographic data
+EM_dataset_long$Child.Gender <- factor(EM_dataset_long$Child.Gender)
+EM_dataset_long$Child.Race <- factor(EM_dataset_long$Child.Race)
+EM_dataset_long %>%
+  summarize(mean = mean(Child.Age.In.Years),
+         median = median(Child.Age.In.Years),
+         sd = sd(Child.Age.In.Years),
+         range = diff(range(Child.Age.In.Years)))
+  summary(EM_dataset_long$Child.Gender)
+  summary(EM_dataset_long$Child.Race)
+# Scale scores
+EM_dataset_long %>%
+  group_by(Emotion, Scale_Type) %>%
+  summarize(mean = mean(Score),
+         sd = sd(Score))
+```
+
+``` {r regression-motivation(AS16), include=FALSE}
+EM_dataset_long$Emotion <- factor(EM_dataset_long$Emotion)
+filtered_data_1 <- subset(EM_dataset_long, Scale_Type == "Motivation")
+filtered_data_1$Emotion <- relevel(filtered_data_1$Emotion, ref = "Neutral")
+regmodel_1 <- lm(Score ~ Emotion + (1|ID), data = filtered_data_1)
+
+regression_results_1 <- tidy(regmodel_1)
 ```
 
 ```{r analysis-preferences}
