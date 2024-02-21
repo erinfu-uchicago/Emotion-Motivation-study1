@@ -11,4 +11,4 @@
 *.pdf
 
 #One specific file that is not in an ignored folder and is not an ignored filetype
-/r-references.bib
+

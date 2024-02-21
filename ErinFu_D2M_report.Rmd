@@ -68,7 +68,7 @@ library(broom)
 library(knitr)
 library(tinytex)
 library(kableExtra)
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 r_refs("r-references.bib")
 ```
 
@@ -116,7 +116,7 @@ ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
   geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.6, color = "black", fill = "grey") +
   labs(title = "The Relationship between Adult's Emotions and Children's Learning Motivation", x = "Emotion", y = "Motivation Levels") +
   theme(
-    text = element_text(family = "Times New Roman"),
+    # text = element_text(family = "Times New Roman"),
     panel.grid.minor.y = element_blank(),
     panel.grid.major.x = element_line(linetype = 2, size = 0.6),
     panel.grid.major.y = element_line(linetype = 2, size = 0.6)
@@ -135,7 +135,7 @@ ggplot(aes(x = Child.Age.In.Years, y = Score)) +
   geom_point() +
   labs(title = "The Relationship between Children's Age and Learning Motivation", subtitle = 'Grouped by Six Different Emotions', x = "Children's Age (in years)", y = "Motivation Levels") +
   theme(
-    text = element_text(family = "Times New Roman"),
+    # text = element_text(family = "Times New Roman"),
     panel.grid.minor.y = element_blank()
   )
 ```
@@ -185,7 +185,8 @@ set.seed(42)
 knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
 ```
 
-
+# Literature Review  
+Positive emotions refer to emotional responses that express positive affect [@vandenbos2007apa].The most common positive emotions are “well-being” and “happiness” [@fredrickson2008positive]. Early psychological research did not place as much emphasis on positive emotions as compared to negative emotions [@sauter2010more]. First, positive emotions were not as clearly categorized as negative emotions, which made it difficult to conduct relevant research. This is because positive emotions have less cognitive distinction and are therefore more likely to occur more than one of them simultaneously [@fredrickson2008positive; @tong2015differentiation]. In addition, many positive emotions have very similar facial expressions (e.g., smiling), making it difficult for researchers to recognize the types of positive emotions through facial signals [@fredrickson2003value]. As a result, many previous studies tend to focus on "happiness" as the only positive emotion [@keltner2021taxonomy; @sauter2010more]. Second, positive emotions are rarely associated with specific behavioral tendencies [@fredrickson2008positive]. Positive emotions tend to be more diffuse and less intense than negative emotions, making them difficult to observe directly in experiments [@baumeister2001bad; @fredrickson2008open]. Finally, positive emotions were considered as not directly linked to the cause of many important psychological disorders [@fredrickson2008positive], such as depression and anxiety. This also leads to less attention on positive emotions since they seem to have less research value compared to negative emotions.
 
 # Methods
 We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
@@ -201,8 +202,8 @@ We used `r cite_r("r-references.bib")` for all our analyses.
 
 
 # Results
-Here is my table: \@ref(tab:regression-table)   
-Here is my first graph: \@ref(fig:emotion-motivation)  
+Here is my table: \@ref(tab:regression-table)  
+Here is my first graph: \@ref(fig:emotion-motivation)   
 Here is my second graph: \@ref(fig:age-emotion-motivation)  
 
 The mean age is `r round(mean_age, 3)` years and the median age is `r median_age` years.
