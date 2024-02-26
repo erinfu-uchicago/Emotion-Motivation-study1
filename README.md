@@ -145,3 +145,7 @@ Include 6 in-line code references (4 value calls and 2 in-line function codes)
 ## AS18
 
 Created a .bib file and add 5+ in-text BibTeX citations (removed r-references.bib from .gitgnore restriction)
+
+## AS19
+
+Added 10+ in-text references to my manuscript in at least 3 different formats
