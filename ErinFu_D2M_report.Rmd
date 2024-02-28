@@ -1,52 +1,37 @@
 ---
-title             : "Emotion and Learning Motivation Report"
-shorttitle        : "Title"
+title             : "Unveiling the Impact of Adult Emotion on Child Learning Motivation"
+shorttitle        : "Adult Emotion & Child Learning Motivation"
 
 author: 
   - name          : "Erin Fu"
     affiliation   : "1"
     corresponding : yes    # Define only one corresponding author
-    address       : "Postal address"
-    email         : "my@email.com"
+    address       : "University of Chicago"
+    email         : "yuzhenf@uchicago.edu"
     role: # Contributorship roles (e.g., CRediT, https://credit.niso.org/)
       - "Conceptualization"
       - "Writing - Original Draft Preparation"
       - "Writing - Review & Editing"
-  - name          : "Ernst-August Doelle"
-    affiliation   : "1,2"
-    role:
-      - "Writing - Review & Editing"
-      - "Supervision"
 
 affiliation:
   - id            : "1"
-    institution   : "Wilhelm-Wundt-University"
-  - id            : "2"
-    institution   : "Konstanz Business School"
+    institution   : "University of Chicago"
 
 authornote: |
-  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-
-  Enter author note here.
+  
 
 abstract: |
-  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
-  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
-  One sentence clearly stating the **general problem** being addressed by  this particular study.
-  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
-  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
-  One or two sentences to put the results into a more **general context**.
-  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  It is widely known that children’s emotions influence their learning motivation, but is their learning motivation also influenced by other people’s expressed emotions? According to the theory of emotional contagion, individuals are affected by the emotions expressed by others. This study aims to explore the possibility adults’ expressed emotions can affect children’s learning motivation. The findings will illuminate the importance of emotions as a psychological state in promoting learning and achievement.
   
   <!-- https://tinyurl.com/ybremelq -->
   
-keywords          : "keywords"
-wordcount         : "X"
+keywords          : "Emotions, Learning Motivation, Children"
+
 
 bibliography      : "r-references.bib"
 
-floatsintext      : no
-linenumbers       : yes
+floatsintext      : yes
+linenumbers       : no
 draft             : no
 mask              : no
 
@@ -84,99 +69,31 @@ EM_dataset_long <- EM_dataset_wide %>%
   separate_wider_delim(Result,
                        delim = ".",
                       names = c("Score", "Note"))
-write_csv(EM_dataset_long, "data/ErinFu_dataset_E&M_0125.csv")
+# write_csv(EM_dataset_long, "data/ErinFu_dataset_E&M_0125.csv")
+
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
 ```
 
-``` {r regression-table, echo=FALSE, results='asis'}
+```{r regression}
 EM_dataset_long$Emotion <- factor(EM_dataset_long$Emotion)
 filtered_data_1 <- subset(EM_dataset_long, Scale_Type == "Motivation")
 filtered_data_1$Emotion <- relevel(filtered_data_1$Emotion, ref = "Neutral")
 regmodel_1 <- lm(Score ~ Emotion + (1|ID), data = filtered_data_1)
 
 regression_results_1 <- tidy(regmodel_1)
-
-regression_table <- regression_results_1 %>%
-  mutate_if(is.numeric, round, digits = 3) %>%
-  mutate_if(is.numeric, function(x) sprintf("%.3f", x))
-knitr::kable(regression_table, format = "markdown", align = "c", caption = "EM Regression Table", label = "regression-table") %>%
-  kable_styling(position = "left", latex_options =c("striped", "hold_position")) %>%
-  column_spec(5, color = "red", bold = TRUE)
-print(regression_table)
 ```
 
-``` {r emotion-motivation, fig.cap = "Adult's Emotions and Children's Learning Motivation", echo=FALSE}
-EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
-EM_dataset_long %>%
-  subset(Scale_Type == "Motivation") %>%
-  group_by(Emotion) %>%
-ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
-  geom_violin() +
-  coord_cartesian(xlim = c(0,7), ylim = c(0,7)) +
-  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
-  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.6, color = "black", fill = "grey") +
-  labs(title = "The Relationship between Adult's Emotions and Children's Learning Motivation", x = "Emotion", y = "Motivation Levels") +
-  theme(
-    # text = element_text(family = "Times New Roman"),
-    panel.grid.minor.y = element_blank(),
-    panel.grid.major.x = element_line(linetype = 2, size = 0.6),
-    panel.grid.major.y = element_line(linetype = 2, size = 0.6)
-  )
-```
-
-``` {r age-emotion-motivation, fig.cap = "Children's Age and Learning Motivation Grouped by Emotions", echo=FALSE}
-EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
-EM_dataset_long %>%
-  subset(Scale_Type == "Motivation") %>%
-  group_by(Emotion) %>%
-ggplot(aes(x = Child.Age.In.Years, y = Score)) +
-  geom_smooth(method = "lm") +
-  facet_wrap(.~Emotion, scales = "free_x") +
-  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
-  geom_point() +
-  labs(title = "The Relationship between Children's Age and Learning Motivation", subtitle = 'Grouped by Six Different Emotions', x = "Children's Age (in years)", y = "Motivation Levels") +
-  theme(
-    # text = element_text(family = "Times New Roman"),
-    panel.grid.minor.y = element_blank()
-  )
-```
-
-```{r, include=FALSE}
-options(tinytex.verbose = TRUE)
-```
-
-```{r Comment(AS15), include=FALSE}
-## Descriptive analysis: Demographic data (gender/age/race); Scale scores
-## Hypothesis testing analysis: Regression analysis(Emotion*Motivation Score)
-## Hypothesis: Different emotions can have a different effect on children's learning motivation (positive emotion can stimulate children's learning motivation, then children who see the facial expression of positive emotions, like awe or enjoyment, will report higher scores in learning motivation)
-```
-
-``` {r descriptive-analysis(AS16)}
-# Demographic data
-EM_dataset_long$Child.Gender <- factor(EM_dataset_long$Child.Gender)
-EM_dataset_long$Child.Race <- factor(EM_dataset_long$Child.Race)
-EM_dataset_long %>%
-  summarize(mean = mean(Child.Age.In.Years),
-         median = median(Child.Age.In.Years),
-         sd = sd(Child.Age.In.Years),
-         range = diff(range(Child.Age.In.Years)))
-  summary(EM_dataset_long$Child.Gender)
-  summary(EM_dataset_long$Child.Race)
-# Scale scores
-EM_dataset_long %>%
-  group_by(Emotion, Scale_Type) %>%
-  summarize(mean = mean(Score),
-         sd = sd(Score))
+``` {r descriptive-analysis, include = FALSE}
+gender_info <- EM_dataset_wide %>%
+  group_by(Child.Gender) %>%
+  count()
+  #summary(EM_dataset_wide$Child.Gender)
 mean_age <- mean(EM_dataset_long$Child.Age.In.Years)
 median_age <- median(EM_dataset_long$Child.Age.In.Years)
 ```
 
-``` {r regression-motivation(AS16), include=FALSE}
-EM_dataset_long$Emotion <- factor(EM_dataset_long$Emotion)
-filtered_data_1 <- subset(EM_dataset_long, Scale_Type == "Motivation")
-filtered_data_1$Emotion <- relevel(filtered_data_1$Emotion, ref = "Neutral")
-regmodel_1 <- lm(Score ~ Emotion + (1|ID), data = filtered_data_1)
-
-regression_results_1 <- tidy(regmodel_1)
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
 ```
 
 ```{r analysis-preferences}
@@ -199,33 +116,78 @@ Previous research has given plenty of elements that can influence the level of a
 
 
 # Methods
-We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study. <!-- 21-word solution (Simmons, Nelson & Simonsohn, 2012; retrieved from http://ssrn.com/abstract=2160588) -->
+## Participants  
+Participants for this study will be 120 children from four to nine years old. They will be recruited by using the Center for Early Childhood Research (CECR) database of the University of Chicago. Inclusion criteria were: (1) four to nine years old, (2) using English as the first language and speaking English more than 75% of the time in daily life, and (3) no history of ADHD or other attention disorders.  
 
-## Participants
+## Data Collection
+The researcher will develop an online survey using Qualtrics and conduct it on Zoom. Each qualified participant will be invited to a private Zoom online meeting room with a passcode after his or her guardian signed the consent form. The researcher will provide step-by-step real-time instructions for participants to complete the survey with video calling and screen sharing. Children will view six different emotions as expressed by adults toward six different subjects to learn (awe, enjoyment, surprise, neutral, sadness, fear), in a randomized order. Each emotion was expressed by one verbal sentence and one facial expression from four adults (two males and two females). After viewing each expressed emotion, children indicate to what extent they think the subject is 1) interesting, 2) important, 3) difficult, and 4) how much they want to learn the subject. The data collection is now still continuing.
 
-## Material
-
-## Procedure
+## Material  
+The materials used in this study include 24 facial expression pictures with six different emotions. Besides the emotion of awe, all the pictures will be randomly selected from The Amsterdam Dynamic Facial Expression Set (ADFES). For the emotion of awe, since no database existed that contained images of the facial expressions of awe, all pictures of awe will be selected from the Internet based on the description from Shiota et al. [-@shiota_faces_2003] about the facial expressions of awe. An extra and independent test will be conducted to test the validation of these awe pictures.
 
 ## Data analysis
-We used `r cite_r("r-references.bib")` for all our analyses.
+We used R [@R-base] for all our analyses. Please see all the loaded packages in the footnote^[ `r cite_r("r-references.bib")`].
+Data will be analyzed by using R. The researcher will first summarize the demographic information of participants. For descriptive data, a violin plot will be provided to show the distribution of learning motivation levels in different emotional conditions. For hypothesis testing analysis, a linear mixed effects model will be conducted by using emotion to predict children’s learning motivation, with participant ID included as a random effect. In addition, a plot will be used to show how the correlation between emotions and learning motivation levels changed across different ages.
 
+``` {r emotion-motivation, fig.cap = "Adult's Emotions and Children's Learning Motivation", echo=FALSE}
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
+  geom_violin() +
+  coord_cartesian(xlim = c(0,7), ylim = c(0,7)) +
+  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
+  geom_dotplot(binaxis = "y", stackdir = "center", dotsize = 0.6, color = "black", fill = "grey") +
+  labs(title = "The Relationship between Adult's Emotions and Children's Learning Motivation", x = "Emotion", y = "Motivation Levels") +
+  theme(
+    # text = element_text(family = "Times New Roman"),
+    panel.grid.minor.y = element_blank(),
+    panel.grid.major.x = element_line(linetype = 2, linewidth = 0.6),
+    panel.grid.major.y = element_line(linetype = 2, linewidth = 0.6)
+  )
+```
 
 # Results
-Here is my table: \@ref(tab:regression-table)  
-Here is my first graph: \@ref(fig:emotion-motivation)   
-Here is my second graph: \@ref(fig:age-emotion-motivation)  
 
-The mean age is `r round(mean_age, 3)` years and the median age is `r median_age` years.
+## Descriptive data
+For 25 children that already recruited and participated in our study, there are `r gender_info[1,2]` females and `r gender_info[2,2]` males.  
+The mean age is `r round(mean_age, 3)` years and median age is `r median_age` years.
+The distribution of learning motivation levels in different emotional conditions is showed in Figure \@ref(fig:emotion-motivation). The shape of the distribution indicates children tend to report higher learning motivation when they are shown positive emotional facial expressions from adults, and lower when they see negative emotional facial expressions from adults towards a subject. The black points demonstrate the mean value of learning motivation for each emotional condition.
 
-Table 1 is the table of the regression model: \@ref(tab:regression-table). Taking the emotion of awe as an example, we compare its influence to learning motivation with the intercept (Neutral). As we can see in the second line, $b$ = `r regression_results_1$statistic[[2]]` ($p$ `r apa_p(regression_results_1$p.value[[2]], add_equals = TRUE)`). In this case, we tend to believe awe as a positive emotion can significantly influence learning motivation.
+``` {r regressiontable, echo=FALSE, results='asis'}
+regression_table <- regression_results_1 %>%
+  mutate_if(is.numeric, round, digits = 3) %>%
+  mutate_if(is.numeric, function(x) sprintf("%.3f", x))
+knitr::kable(regression_table, format = "markdown", align = "c", caption = "EM Regression Table", label = "regression-table") %>%
+  kable_styling(position = "left", latex_options =c("striped", "hold_position")) %>%
+  column_spec(5, color = "red", bold = TRUE)
+```
 
-We can also find in this table that the $b$ value of Fear is `r regression_results_1$statistic[[4]]` and the $b$ value of Sadness is `r regression_results_1$statistic[[5]]`. This means compared with our baseline, they have negative influence on learning motivation.
+``` {r age-emotion-motivation, fig.cap = "Children's Age and Learning Motivation Grouped by Emotions", echo=FALSE}
+EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
+EM_dataset_long %>%
+  subset(Scale_Type == "Motivation") %>%
+  group_by(Emotion) %>%
+ggplot(aes(x = Child.Age.In.Years, y = Score)) +
+  geom_smooth(method = "lm") +
+  facet_wrap(.~Emotion, scales = "free_x") +
+  scale_y_continuous(breaks = seq(1, 6, by = 1)) +
+  geom_point() +
+  labs(title = "The Relationship between Children's Age and Learning Motivation", subtitle = 'Grouped by Six Different Emotions', x = "Children's Age (in years)", y = "Motivation Levels") +
+  theme(
+    # text = element_text(family = "Times New Roman"),
+    panel.grid.minor.y = element_blank()
+  )
+```
 
+## Hypothesis testing analysis  
+As it was shown in Table \@ref(tab:regression-table), children’s learning motivation varied by the types of emotional facial expression they received. Taking the emotion of awe as an example, its influence to learning motivation is compared with the intercept (Neutral), $b$ = `r regression_results_1$statistic[[2]]` ($p$ `r apa_p(regression_results_1$p.value[[2]], add_equals = TRUE)`). This indicates that the level of learning motivation in the emotion of awe is significantly higher than that in the emotion of neutral. In this case, we tend to believe awe as a positive emotion can significantly influence learning motivation.  
+In addition, this table also shows that the $b$ value of Fear is `r regression_results_1$statistic[[4]]` and the $b$ value of Sadness is `r regression_results_1$statistic[[5]]`. This means compared with our baseline, both the emotion of fear and sadness, or negative emotions, have negative influence on learning motivation.  
+The correlation between emotions and learning motivation levels changed across different ages is showed in Figure \@ref(fig:age-emotion-motivation). According to the table, for all negative emotions, elder children tend to report lower learning motivation compared with younger children. However, this trend didn’t find for positive emotions. This might indicate that children become more sensitive to negative emotional facial expressions as they growing up.
 
 
 # Discussion
-
+This research aims to explore the impact on children’s learning motivation of adults’ emotional expressions and focus on positive emotions. Based on the analysis that was already conducted with incomplete data collection, the relationship between positive emotional facial expressions from adults and children’s learning motivation is beginning to take shape. Further analysis with more participants and more complex models (e.g., the correlation of each measurement for motivation, gender differences) is necessary to further confirm this relationship. The results of this study may guide teachers to improve their efficacy by supplying certain emotional expressions in the practical teaching environment. It also helps parents to develop a better grasp of the emotions that they should present when tutoring their children. The research findings will emphasize the importance of expressed emotions as a psychological mechanism for promoting learning motivation.
 
 \newpage
 
