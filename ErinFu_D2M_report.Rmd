@@ -47,11 +47,12 @@ header-includes:
 ---
 
 ```{r setup, include = FALSE}
+library(Require)
 library(tidyverse)
 library(papaja)
-library(broom)
-library(knitr)
-library(tinytex)
+require(broom)
+require(knitr)
+require(tinytex)
 library(kableExtra)
 knitr::opts_chunk$set(echo = FALSE)
 r_refs("r-references.bib")
@@ -69,7 +70,6 @@ EM_dataset_long <- EM_dataset_wide %>%
   separate_wider_delim(Result,
                        delim = ".",
                       names = c("Score", "Note"))
-# write_csv(EM_dataset_long, "data/ErinFu_dataset_E&M_0125.csv")
 
 EM_dataset_long$Score <- as.numeric(EM_dataset_long$Score)
 ```
@@ -87,7 +87,6 @@ regression_results_1 <- tidy(regmodel_1)
 gender_info <- EM_dataset_wide %>%
   group_by(Child.Gender) %>%
   count()
-  #summary(EM_dataset_wide$Child.Gender)
 mean_age <- mean(EM_dataset_long$Child.Age.In.Years)
 median_age <- median(EM_dataset_long$Child.Age.In.Years)
 ```
@@ -152,7 +151,7 @@ ggplot(aes(x = Emotion, y = Score, fill = Emotion)) +
 ## Descriptive data
 For 25 children that already recruited and participated in our study, there are `r gender_info[1,2]` females and `r gender_info[2,2]` males.  
 The mean age is `r round(mean_age, 3)` years and median age is `r median_age` years.
-The distribution of learning motivation levels in different emotional conditions is showed in Figure \@ref(fig:emotion-motivation). The shape of the distribution indicates children tend to report higher learning motivation when they are shown positive emotional facial expressions from adults, and lower when they see negative emotional facial expressions from adults towards a subject. The black points demonstrate the mean value of learning motivation for each emotional condition.
+The distribution of learning motivation levels in different emotional conditions is showed in Figure \@ref(fig:emotion-motivation). The shape of the distribution indicates children tend to report higher learning motivation when they are shown positive emotional facial expressions from adults, and lower when they see negative emotional facial expressions from adults towards a subject. The grey points demonstrate the distribution of the score for learning motivation in each emotional condition.
 
 ``` {r regressiontable, echo=FALSE, results='asis'}
 regression_table <- regression_results_1 %>%
