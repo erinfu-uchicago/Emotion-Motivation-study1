@@ -50,10 +50,10 @@ header-includes:
 library(Require)
 library(tidyverse)
 library(papaja)
-require(broom)
-require(knitr)
-require(tinytex)
+library(broom)
 library(kableExtra)
+if (!require("knitr")) {install.packages("knitr"); require("knitr")}
+if (!require("tinytex")) {install.packages("tinytex"); require("tinytex")}
 knitr::opts_chunk$set(echo = FALSE)
 r_refs("r-references.bib")
 ```
