@@ -151,6 +151,12 @@ Created a .bib file and add 5+ in-text BibTeX citations (removed r-references.bi
 Added 10+ in-text references to my manuscript in at least 3 different formats
 
 ## AS20
+
 Cleaned up my repo & revise my .README as needed
 (Put all the previous ASs into one folder)
 
+
+## Final Report  
+
+Here is the repo for my final report  
+Please feel free to tell me if there is any problem that need to be solved!  
