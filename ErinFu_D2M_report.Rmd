@@ -26,7 +26,7 @@ abstract: |
   <!-- https://tinyurl.com/ybremelq -->
   
 keywords          : "Emotions, Learning Motivation, Children"
-
+wordcount         : "71"
 
 bibliography      : "r-references.bib"
 
